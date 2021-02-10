@@ -69,7 +69,7 @@
     padding-top: 12rem;
     padding-bottom: 12rem;
     padding-left: 40rem;
-    margin-left: -8%;
+    margin-left: -9%;
 }
 @media screen 
   and (min-width: 320px) and (max-width:480px){
@@ -85,9 +85,8 @@
         padding-left: 40rem;
     }
     #text-2{
-        font-size: 30px;
+        font-size: 35px;
     }
-    
 }
 
 @media (min-width: 1281px) {
@@ -95,9 +94,28 @@
         width: 100rem;
     }
 }
-/* @media (min-width: 1025px) and (max-width: 1280px) {
-  
-    
-    
-  } */
+@media only screen
+and (device-width : 768px){
+    #mockup-box{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        padding-left: 50rem;
+        margin-left: 20%;
+    }
+    #container{
+        margin-left: 5%;
+    }
+    #download-app{
+        width: 150rem;
+    }
+    #text,#text-1,#text-2{
+        margin-bottom: 3rem;
+        font-size: 60px;
+    }
+    #download{
+        font-size: 50px;
+        margin-top: 5rem;
+    }
+}
+
 

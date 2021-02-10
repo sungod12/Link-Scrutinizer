@@ -150,6 +150,7 @@ nav .icon-burger .line {
     padding: 10px;
     margin-top: 25px;
     font-size: 40px;
+    border: 1px black solid;
     border-radius: 50px;
     margin-left: 10.5em;
     outline: none;
@@ -179,6 +180,9 @@ and (min-width : 1224px) {
     margin-right: auto;
     font-size: 50px;
    }
+   #search{
+    border: 1px black solid;
+   }
     #search-bar {
       margin-left: 10em;
     }
@@ -191,8 +195,12 @@ and (min-width : 1224px) {
   #main-title{
     width: 190%;
     font-size: 50px;
+    margin-left: 5em;
   }
   #search {
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px black solid;
     padding: 20px;
     margin-left: 12em;
   }
@@ -205,6 +213,117 @@ and (min-width : 1224px) {
     margin-right: auto;
     font-size: 70px;
    }
+}
+@media only screen
+and (device-width : 768px){
+  nav .logo {
+    font-size: 50px;
+    float: none;
+    width: auto;
+    justify-content: center;
+  }
+  nav .links {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+  }
+  nav .links a {
+    font-size: 40px;
+  }
+  nav :checked ~ .links {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+  nav .logo {
+    font-size: 50px;
+    float: none;
+    width: auto;
+    justify-content: center;
+  }
+  nav .links {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+  }
+  nav .links a {
+    font-size: 40px;
+  }
+  nav :checked ~ .links {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+  #main-title{
+    width: 190%;
+    margin-top: 40rem;
+    font-size: 80px;
+    margin-left: 40rem;
+  }
+  #search {
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-left: 65rem;
+  }
+  #search-bar{
+    font-size: 50px;
+    padding:2rem 20rem;
+    margin-left: 32rem;
+  }
+  #bottom{
+    margin-top: 160px;
+    margin-left: 55rem;
+    margin-right: auto;
+    font-size: 80px;
+   }
+
 }
 
 
