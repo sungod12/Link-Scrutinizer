@@ -6,6 +6,8 @@
 body {
   padding: 0;
   margin: 0;
+  background-image:url("./images/homepage_bg.png");
+  width: 100%;
 }
 .container {
   position: relative;
@@ -24,7 +26,7 @@ nav {
   font-family: "Segoe UI Regular";
   padding: 0 1%;
   height: 120px;
-  background-color: #3e65da;
+  background:transparent;
 }
 nav .logo {
   float: left;
@@ -77,14 +79,17 @@ nav .icon-burger .line {
   transition: all 0.3s ease-in-out;
 }
 #search {
-  padding: 10px;
+  background-color: transparent;
+  padding: 15px;
   font-size: 20px;
-  border-radius: 50px;
-  margin-left: -7%;
+  border-radius: 40px;
+  margin-left: -5%;
+  border: 4px black solid;
   outline: none;
 }
 #search-bar {
-  text-align: center;
+  background: rgba(255, 254, 254, 0.103);
+  text-align:left;
   font-size: 30px;
   padding: 20px 200px;
   margin-top: 2%;
@@ -92,6 +97,9 @@ nav .icon-burger .line {
   border: 1px black solid;
   border-radius: 50px;
   outline: none;
+}
+#main-title,#bottom{
+  color: #fff;
 }
 
 @media screen 
@@ -140,6 +148,7 @@ nav .icon-burger .line {
   }
   #main-title{
     font-size: 46px;
+    color: #fff;
     margin-top: 40rem;
     margin-right: auto;
     margin-left: 15rem;

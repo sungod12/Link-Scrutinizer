@@ -8,14 +8,10 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
-#container{
-    width: 50%;
-    /* border: 10px red solid; */
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content:center;
-    align-items: flex-start;
-    margin-left: 2%;
+#download-extension{
+    background-color: #181C2E;
+    width: 113%;
+    padding-bottom: 6rem;
 }
 #main-container{
     /* width: fit-content; */
@@ -25,12 +21,45 @@
     justify-content: flex-start;
     align-items: baseline;
 }
+#main-container-2{
+    /* border: 10px blue solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+#container{
+    width: 50%;
+    /* border: 10px green solid; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 1%;
+}
 #container-2{
     /* border: 10px green solid; */
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content:flex-start;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+    margin-right: 2%;
+    flex: 1;
+}
+#container-3{
+    /* border: 10px red solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    margin-left: 2%;
+    flex: 1;
+}
+#container-4{
+    width: 50%;
+    /* border: 10px green solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 #text{
     color: white;
@@ -55,13 +84,28 @@
     margin-top: 1%;
     margin-bottom: 10rem;
 }
-#download{
+#download,#extension{
     font-family: 'Segoe UI Semibold';
     font-size: 30px;
     padding: 1.5rem 1em;
     border-radius: 30px;
     position: relative;
-    
+    outline: none;
+}
+#text-3{
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI Semibold';
+    font-size: 30px; 
+}
+#text-4{
+    width: 70%;
+    color: white;
+    font-family: 'Segoe UI Regular';
+    font-size: 30px;
+}
+#text-3,#text-4{
+    margin-bottom: 1em;
 }
 #mockup-box{
     background-color:#707070;
@@ -69,29 +113,55 @@
     padding-top: 12rem;
     padding-bottom: 12rem;
     padding-left: 40rem;
-    margin-left: -9%;
+    margin-left: -20%;
+}
+#mockup-box-2{
+    background-color:#bdbdbd;
+    border-radius: 30px;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-left: 40rem;
 }
 @media screen 
   and (min-width: 320px) and (max-width:480px){
     html{
         font-size: 14px;
     }
-    #download-app{
+    #download-app,#download-extension{
         width: 80rem;
     }
-    #mockup-box{
+    #download,#extension{
+        font-size: 40px;
+    }
+    #container-2{
+        justify-content: center;
+    }
+    #mockup-box,#mockup-box-2{
         padding-top: 12rem;
         padding-bottom: 12rem;
         padding-left: 40rem;
     }
+    #container-3{
+        margin-right:5%;
+    }
     #text-2{
-        font-size: 35px;
+        font-size: 37px;
+    }
+    #text-3{
+        font-size: 40px;
+    }
+    #text-4{
+        font-size: 30px;
+        width:100% ;
     }
 }
 
 @media (min-width: 1281px) {
     #download-app{
         width: 100rem;
+    }
+    #mockup-box{
+        margin-right: 35%;
     }
 }
 @media only screen
@@ -108,7 +178,7 @@ and (device-width : 768px){
     #download-app{
         width: 150rem;
     }
-    #text,#text-1,#text-2{
+    #text,#text-1,#text-2,#text-3,#text-4{
         margin-bottom: 3rem;
         font-size: 60px;
     }

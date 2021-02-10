@@ -1,16 +1,29 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./index.css";
-
+import logo from "./images/website_logo.png";
 const Navbar = () => {
-  const scrollToTop=()=> {
+  const scrollToTop = () => {
     scroll.scrollToTop();
-  }
+  };
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navigationBar").style.top = "0";
+      } else {
+        document.getElementById("navigationBar").style.top = "-100px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  
   return (
     <>
-      <nav>
+      <nav id="navigationBar">
         <input id="nav-toggle" type="checkbox" />
-        <div className="logo">Your Logo</div>
+        <div className="logo">
+          <img src={logo} width="250px" />
+        </div>
         <ul className="links">
           <li>
             <a onClick={scrollToTop}>Home</a>
@@ -26,17 +39,21 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-            >API Guide</Link>
+            >
+              API Guide
+            </Link>
           </li>
           <li>
-          <Link
+            <Link
               activeClass="active"
               to="page2"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-            >Downloads</Link>
+            >
+              Downloads
+            </Link>
           </li>
           <li>
             <a href="#contact">Contact</a>
