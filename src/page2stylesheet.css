@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#download-app{
+    background-color: #181C2E;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#container{
+    width: 50%;
+    /* border: 10px red solid; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    align-items: flex-start;
+    margin-left: 2%;
+}
+#main-container{
+    /* width: fit-content; */
+    /* border: 10px blue solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+#container-2{
+    /* border: 10px green solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content:flex-start;
+}
+#text{
+    color: white;
+    width: 100%;
+    order:3;
+    font-size:60px;
+    font-family: 'Segoe UI Semibold';
+}
+#text-1{
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI Semibold';
+    font-size:40px;
+    order: 2;
+}
+#text-2{
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI Regular';
+    font-size: 40px;
+    order: 1;
+    margin-top: 1%;
+    margin-bottom: 10rem;
+}
+#download{
+    font-family: 'Segoe UI Semibold';
+    font-size: 30px;
+    padding: 1.5rem 1em;
+    border-radius: 30px;
+    position: relative;
+    
+}
+#mockup-box{
+    background-color:#707070;
+    border-radius: 30px;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-left: 40rem;
+    margin-left: -8%;
+}
+@media screen 
+  and (min-width: 320px) and (max-width:480px){
+    html{
+        font-size: 14px;
+    }
+    #download-app{
+        width: 80rem;
+    }
+    #mockup-box{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        padding-left: 40rem;
+    }
+    #text-2{
+        font-size: 30px;
+    }
+    
+}
+
+@media (min-width: 1281px) {
+    #download-app{
+        width: 100rem;
+    }
+}
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    
+    
+  } */
+
