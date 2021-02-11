@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image:url("./images/homepage_bg.png");
+  background-image:url("../images/homepage_bg.png");
   width: 100%;
 }
 .container {
@@ -83,12 +83,14 @@ nav .icon-burger .line {
   padding: 15px;
   font-size: 20px;
   border-radius: 40px;
-  margin-left: -5%;
+  margin-left: -7%;
   border: 4px black solid;
   outline: none;
+  cursor: pointer;
 }
 #search-bar {
   background: rgba(255, 254, 254, 0.103);
+  color: #fff;
   text-align:left;
   font-size: 30px;
   padding: 20px 200px;
@@ -99,6 +101,7 @@ nav .icon-burger .line {
   outline: none;
 }
 #main-title,#bottom{
+  font-family: 'Segoe UI Semibold';
   color: #fff;
 }
 

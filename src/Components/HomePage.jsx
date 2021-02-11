@@ -1,6 +1,6 @@
-import { ArrowForward } from "@material-ui/icons";
+
 import React from "react";
-import "./index.css";
+import "../css/index.css";
 const HomePage = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const HomePage = () => {
         name="searchbar"
         id="search-bar"
       />
-      <button id="search"><ArrowForward/></button>
+      <button id="search">Search</button>
       <footer>
         <p id="bottom">#beSafewithus!</p>
       </footer>

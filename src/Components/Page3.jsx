@@ -1,7 +1,7 @@
 import React from "react";
-import "./page2stylesheet.css";
+import "../css/page3.css";
 
-const Page2 = () => {
+const Page3 = () => {
   return (
     <>
       <section id="download-app">
@@ -19,7 +19,9 @@ const Page2 = () => {
       </section>
       <section id="download-extension">
         <div id="main-container-2">
-        <div id="container-3"><div id="mockup-box-2"></div></div>
+          <div id="container-3">
+            <div id="mockup-box-2"></div>
+          </div>
           <div id="container-4">
             <p id="text-3">Use directly from your chrome browser</p>
             <p id="text-4">
@@ -32,4 +34,4 @@ const Page2 = () => {
     </>
   );
 };
-export default Page2;
+export default Page3;

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#about-us{
+    width: 114%;
+    background-color: #181C2E;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#title{
+    font-family: 'Segoe UI Regular';
+    text-align:center;
+    color: #fff;
+    font-size: 70px;
+}
+#first-para,#second-para,#third-para{
+    width:85%;
+    font-family: 'Segoe UI Regular';
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    color:#fff;
+}
+
+#last-para{
+    font-family: 'Segoe UI Semibold';
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 2%;
+    color: #fff;
+}
+#name{
+    font-family: 'Segoe UI Semibold';
+    font-size: 40px;
+    color: #fff;
+}
+#jtitle{
+    font-family: 'Segoe UI Regular';
+    font-size: 30px;
+    color:#fff;
+}
+#member-container{
+    /* border: 10px yellow solid; */
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#member-1,#member-2,#member-3{
+    /* border: 10px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bottom-container{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    align-items: center;
+}
+#logos{
+    padding: 20px;
+}
+#mem-logo{
+    width: 100px;
+    height: 100px;
+}
+#circle-1,#circle-2,#circle-3{
+    padding:50px;
+    margin-bottom: 10px;
+    background-color:white;
+    border: 5px white solid;
+    border-radius: 150px;
+}
+#team-title{
+    font-size:70px;
+    color:#fff;
+    font-family: 'Segoe UI Regular';
+    text-align: center;
+    margin-bottom: 5%;
+    margin-right: 9%;
+}
+p{
+    color:#fff;
+}
+#email,#privacy,#copyright{
+    font-family: 'Segoe UI Regular';
+    font-size: 30px;
+}
+#privacy,#copyright{
+    text-transform: capitalize;
+}
+#contact{
+    font-family: 'Segoe UI Semibold';
+    font-size: 35px;
+}
+hr{
+    margin:5% 0;
+}
+@media screen 
+  and (min-width: 320px) and (max-width:480px){
+   html{
+       font-size: 14px;
+   }
+    #about-us{
+        width: 80rem;
+    }
+    #first-para,#second-para,#third-para{
+        font-size: 40px;
+        width: 95%;
+    }
+    #last-para{
+        font-size: 40px;
+    }
+    #member-container{
+        width: 98%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #contact{
+        margin-left: -5%;
+        font-size: 30px;
+    }
+    #team-title{
+        margin-right: 5%;
+    }
+    #email,#privacy,#copyright{
+        font-size: 26px;
+    }
+    #bottom-container{
+        width: 95%;
+    }
+}
