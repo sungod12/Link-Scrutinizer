@@ -6,8 +6,11 @@
 body {
   padding: 0;
   margin: 0;
-  background-image:url("../images/homepage_bg.png");
+  background-image: url("../images/homepage_bg.png");
+  background-size: cover;
   width: 100%;
+  height: auto;
+  /* background-repeat: no-repeat; */
 }
 .container {
   position: relative;
@@ -24,9 +27,11 @@ nav {
   right: 0;
   top: 0;
   font-family: "Segoe UI Regular";
-  padding: 0 1%;
+  padding-left: 80px;
+  padding-top: 35px;
+  padding-right: 80px;
   height: 120px;
-  background:transparent;
+  background: transparent;
 }
 nav .logo {
   float: left;
@@ -40,7 +45,7 @@ nav .logo {
 nav .links {
   float: right;
   padding: 0;
-  margin: 0;
+  margin: -25px;
   width: 50%;
   height: 100%;
   display: flex;
@@ -54,289 +59,109 @@ nav .links a {
   display: block;
   padding: 10px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+  font-family: "Segoe UI Regular";
 }
-#nav-toggle {
-  position: absolute;
-  top: -100px;
+#main-title{
+  font-size: 50px;
+  font-family: "Segoe UI Semibold";
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
 }
-nav .icon-burger {
-  display: none;
-  position: absolute;
-  right: 5%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-nav .icon-burger .line {
-  width: 30px;
-  height: 5px;
-  background-color: #fff;
-  margin: 5px;
-  border-radius: 3px;
-  transition: all 0.3s ease-in-out;
+#main-logo {
+  width: 300px;
+  margin-top: -20px;
+  margin-left: -30px;
 }
 #search {
-  background-color: transparent;
-  padding: 15px;
-  font-size: 20px;
-  border-radius: 40px;
-  margin-left: -7%;
-  border: 4px black solid;
-  outline: none;
-  cursor: pointer;
+  border: 1px black solid;
 }
 #search-bar {
-  background: rgba(255, 254, 254, 0.103);
-  color: #fff;
-  text-align:left;
-  font-size: 30px;
-  padding: 20px 200px;
-  margin-top: 2%;
-  margin-left: 13em;
-  border: 1px black solid;
+  font-size: 25px;
+  width: 800px;
+  height: 60px;
   border-radius: 50px;
+  margin-left: 280px;
+  color: #fff;
+  padding-left: 30px;
+  background: rgb(255 255 255 / 20%);
+  margin-top: 40px;
+  margin-right: auto;
   outline: none;
 }
-#main-title,#bottom{
-  font-family: 'Segoe UI Semibold';
+#bottom {
+  font-size: 35px;
+  margin-top: 180px;
+  font-family: "Segoe UI Regular";
+  color: #fff;
+  text-align: center;
+} 
+h2 {
+  margin-top: 100%;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
   color: #fff;
 }
 
-@media screen 
-  and (min-width: 360px) 
-  and (max-width: 568px)  {
-  nav .logo {
-    font-size: 50px;
-    float: none;
-    width: auto;
-    justify-content: center;
-  }
-  nav .links {
-    float: none;
-    position: fixed;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    top: 100px;
-    bottom: 100%;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.8);
-    overflow: hidden;
-    box-sizing: border-box;
-    transition: all 0.5s ease-in-out;
+@media screen and (min-width: 1920px) {
+  #main-logo {
+    width: 450px;
+    margin-top: 5px;
   }
   nav .links a {
-    font-size: 40px;
+    font-size: 35px;
   }
-  nav :checked ~ .links {
-    bottom: 0;
+  #search {
+    background-color: transparent;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-left: -7%;
+    border: 4px black solid;
+    outline: none;
+    cursor: pointer;
   }
-  nav .icon-burger {
-    display: block;
-  }
-  nav :checked ~ .icon-burger .line:nth-child(1) {
-    transform: translateY(10px) rotate(225deg);
-  }
-  nav :checked ~ .icon-burger .line:nth-child(3) {
-    transform: translateY(-10px) rotate(-225deg);
-  }
-  nav :checked ~ .icon-burger .line:nth-child(2) {
-    opacity: 0;
-  }
-  #main-title{
-    font-size: 46px;
+  #search-bar {
+    font-size: 25px;
+    width: 900px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 500px;
     color: #fff;
-    margin-top: 40rem;
+    padding-left: 30px;
+    background: rgb(255 255 255 / 20%);
+    margin-top: 40px;
     margin-right: auto;
-    margin-left: 15rem;
-    width: 170%;
-  }
-  #search {
-    width: auto;
-    padding: 10px;
-    margin-top: 25px;
-    font-size: 40px;
-    border: 1px black solid;
-    border-radius: 50px;
-    margin-left: 10.5em;
     outline: none;
   }
-  #search-bar{
-    text-align: center;
-    font-size: 50px;
-    padding: 20px 192px;
-    margin-top: 2rem;
-    margin-left: 0em;
-    border: 1px black solid;
-    border-radius: 50px;
-    outline: none;
-  }
-}
-@media only screen
-and (min-width : 1224px) { 
-    #main-title{
-      font-size: 40px;
-      margin-top: 20%;
-      margin-left: 28rem;
-      margin-right: auto;
-    }
-   #bottom{
-    margin-top: 160px;
-    margin-left: 40%;
-    margin-right: auto;
-    font-size: 50px;
-   }
-   #search{
-    border: 1px black solid;
-   }
-    #search-bar {
-      margin-left: 10em;
-    }
-    h2{
-      margin-top: 100%;
-    }
-}
-@media screen 
-  and (min-width: 320px) and (max-width:480px)  {
-  #main-title{
-    width: 190%;
-    font-size: 50px;
-    margin-left: 5em;
-  }
-  #search {
-    font-size: 40px;
-    font-weight: bold;
-    border: 1px black solid;
-    padding: 20px;
-    margin-left: 12em;
-  }
-  #search-bar{
-    margin-left: 4rem;
-  }
-  #bottom{
-    margin-top: 160px;
-    margin-left: 25rem;
-    margin-right: auto;
+  #main-title {
     font-size: 70px;
-   }
+    font-family: "Segoe UI Semibold";
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
+  }
+  #bottom {
+    font-size: 50px;
+    margin-top: 380px;
+    font-family: "Segoe UI Regular";
+    color: #fff;
+    text-align: center;
+  } 
 }
-@media only screen
-and (device-width : 768px){
-  nav .logo {
-    font-size: 50px;
-    float: none;
-    width: auto;
-    justify-content: center;
-  }
-  nav .links {
-    float: none;
-    position: fixed;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    top: 100px;
-    bottom: 100%;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.8);
-    overflow: hidden;
-    box-sizing: border-box;
-    transition: all 0.5s ease-in-out;
-  }
-  nav .links a {
-    font-size: 40px;
-  }
-  nav :checked ~ .links {
-    bottom: 0;
-  }
-  nav .icon-burger {
-    display: block;
-  }
-  nav :checked ~ .icon-burger .line:nth-child(1) {
-    transform: translateY(10px) rotate(225deg);
-  }
-  nav :checked ~ .icon-burger .line:nth-child(3) {
-    transform: translateY(-10px) rotate(-225deg);
-  }
-  nav :checked ~ .icon-burger .line:nth-child(2) {
-    opacity: 0;
-  }
-  nav .logo {
-    font-size: 50px;
-    float: none;
-    width: auto;
-    justify-content: center;
-  }
-  nav .links {
-    float: none;
-    position: fixed;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    top: 100px;
-    bottom: 100%;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.8);
-    overflow: hidden;
-    box-sizing: border-box;
-    transition: all 0.5s ease-in-out;
-  }
-  nav .links a {
-    font-size: 40px;
-  }
-  nav :checked ~ .links {
-    bottom: 0;
-  }
-  nav .icon-burger {
-    display: block;
-  }
-  nav :checked ~ .icon-burger .line:nth-child(1) {
-    transform: translateY(10px) rotate(225deg);
-  }
-  nav :checked ~ .icon-burger .line:nth-child(3) {
-    transform: translateY(-10px) rotate(-225deg);
-  }
-  nav :checked ~ .icon-burger .line:nth-child(2) {
-    opacity: 0;
-  }
-  #main-title{
-    width: 190%;
-    margin-top: 40rem;
-    font-size: 80px;
-    margin-left: 40rem;
-  }
-  #search {
-    font-size: 50px;
-    font-weight: bold;
-    border: 1px black solid;
-    padding: 20px;
-    margin-top: 1rem;
-    margin-left: 65rem;
-  }
-  #search-bar{
-    font-size: 50px;
-    padding:2rem 20rem;
-    margin-left: 32rem;
-  }
-  #bottom{
-    margin-top: 160px;
-    margin-left: 55rem;
-    margin-right: auto;
-    font-size: 80px;
-   }
-
-}
-
 
 

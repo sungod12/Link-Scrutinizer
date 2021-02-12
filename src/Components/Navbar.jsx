@@ -7,22 +7,22 @@ const Navbar = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navigationBar").style.top = "0";
-    } else {
-      document.getElementById("navigationBar").style.top = "-100px";
-    }
-    prevScrollpos = currentScrollPos;
-  };
+  // var prevScrollpos = window.pageYOffset;
+  // window.onscroll = function () {
+  //   var currentScrollPos = window.pageYOffset;
+  //   if (prevScrollpos > currentScrollPos) {
+  //     document.getElementById("navigationBar").style.top = "0";
+  //   } else {
+  //     document.getElementById("navigationBar").style.top = "-100px";
+  //   }
+  //   prevScrollpos = currentScrollPos;
+  // };
   return (
     <>
       <nav id="navigationBar">
-        <input id="nav-toggle" type="checkbox" />
+        {/* <input id="nav-toggle" type="checkbox" /> */}
         <div className="logo">
-          <img src={logo} onClick={scrollToTop} width="250px" />
+          <img src={logo} onClick={scrollToTop} id="main-logo"  />
         </div>
         <ul className="links">
           <li>
