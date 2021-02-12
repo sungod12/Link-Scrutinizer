@@ -116,7 +116,18 @@ h2 {
   /* Microsoft Edge */
   color: #fff;
 }
-
+@media screen and (min-device-width: 1200px) 
+and (max-device-width: 1500px) {
+  nav .links a {
+    font-size: 30px;
+  }
+  #bottom {
+    margin-top: 350px;
+  } 
+  #main-title{
+    margin-top: 22%;
+  }
+}
 @media screen and (min-width: 1920px) {
   #main-logo {
     width: 450px;
@@ -124,6 +135,13 @@ h2 {
   }
   nav .links a {
     font-size: 35px;
+  }
+  #main-title {
+    font-size: 70px;
+    font-family: "Segoe UI Semibold";
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
   }
   #search {
     background-color: transparent;
@@ -147,13 +165,6 @@ h2 {
     margin-top: 40px;
     margin-right: auto;
     outline: none;
-  }
-  #main-title {
-    font-size: 70px;
-    font-family: "Segoe UI Semibold";
-    color: #fff;
-    text-align: center;
-    margin-top: 20%;
   }
   #bottom {
     font-size: 50px;
