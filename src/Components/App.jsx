@@ -15,12 +15,12 @@ const App = () => {
       <div id="apiguide">
         <Page2 />
       </div>
-      {/*<div id="downloads">
+      <div id="downloads">
         <Page3 />
       </div>
       <div id="aboutus">
         <Page4 />
-      </div> */}
+      </div> 
     </>
   );
 };

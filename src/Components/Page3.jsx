@@ -4,11 +4,10 @@ import "../css/page3.css";
 const Page3 = () => {
   return (
     <>
-      <section id="download-app">
+      <section id="page-3">
         <div id="main-container">
           <div id="container">
-            <p id="text">Link Scrutinizer</p>
-            <p id="text-1">Android App</p>
+            <p id="text-1">Link Scrutinizer<br/>Android App</p>
             <p id="text-2">Available on Google Play store</p>
             <button id="download">Download Now</button>
           </div>
@@ -16,8 +15,6 @@ const Page3 = () => {
             <div id="mockup-box"></div>
           </div>
         </div>
-      </section>
-      <section id="download-extension">
         <div id="main-container-2">
           <div id="container-3">
             <div id="mockup-box-2"></div>

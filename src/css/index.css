@@ -155,6 +155,7 @@ h2 {
     margin-left: -5%;
     width: 69px;
     height: 69px; 
+    cursor: pointer;
   }
   #search-bar {
     width: 900px;
