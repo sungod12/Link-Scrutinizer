@@ -21,7 +21,7 @@ body {
   width: 100%;
 }
 nav {
-  position: fixed;
+  position: relative;
   z-index: 10;
   left: 0;
   right: 0;
@@ -79,6 +79,15 @@ nav .links a {
 }
 #search {
   border: 1px black solid;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-left: -6%;
+    border: 4px black solid;
+    outline: none;
+    cursor: pointer;
+    width: 70px;
+    height: 50px; 
 }
 #search-bar {
   font-size: 25px;
@@ -95,7 +104,7 @@ nav .links a {
 }
 #bottom {
   font-size: 35px;
-  margin-top: 180px;
+  margin-top: 190px;
   font-family: "Segoe UI Regular";
   color: #fff;
   text-align: center;
@@ -138,40 +147,23 @@ h2 {
   }
   #main-title {
     font-size: 70px;
-    font-family: "Segoe UI Semibold";
-    color: #fff;
-    text-align: center;
     margin-top: 20%;
   }
   #search {
-    background-color: transparent;
-    padding: 15px;
     font-size: 20px;
     border-radius: 40px;
-    margin-left: -7%;
-    border: 4px black solid;
-    outline: none;
-    cursor: pointer;
+    margin-left: -5%;
+    width: 69px;
+    height: 69px; 
   }
   #search-bar {
-    font-size: 25px;
     width: 900px;
     height: 80px;
-    border-radius: 50px;
     margin-left: 500px;
-    color: #fff;
-    padding-left: 30px;
-    background: rgb(255 255 255 / 20%);
-    margin-top: 40px;
-    margin-right: auto;
-    outline: none;
   }
   #bottom {
     font-size: 50px;
     margin-top: 380px;
-    font-family: "Segoe UI Regular";
-    color: #fff;
-    text-align: center;
   } 
 }
 

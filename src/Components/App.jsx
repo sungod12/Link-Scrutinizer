@@ -12,10 +12,10 @@ const App = () => {
       <div id="home">
         <HomePage />
       </div>
-      {/* <div id="apiguide">
+      <div id="apiguide">
         <Page2 />
       </div>
-      <div id="downloads">
+      {/*<div id="downloads">
         <Page3 />
       </div>
       <div id="aboutus">

@@ -10,7 +10,7 @@ const HomePage = () => {
         name="searchbar"
         id="search-bar"
       />
-      <button id="search"></button>
+      <button id="search">Search</button>
       <footer>
         <p id="bottom">#beSafewithus!</p>
       </footer>

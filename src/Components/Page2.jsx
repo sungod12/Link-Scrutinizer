@@ -33,7 +33,7 @@ const Page2 = () => {
             </div>
             <div id="text-container-2">
             <div id="box-2">
-              <p id="error-code">"cod": 429, "message": "Your account is temporary blocked due to exceeding of requests limitation of your subscription type. Please choose the proper subscription http:// openweathermap.org/price" </p>
+              <p id="error-code">"cod": 429, "message": "Your account is temporary blocked due to exceeding of requests limitation of your subscription type.<br/>Please choose the proper subscription http:// openweathermap.org/price"</p>
             </div>
             </div>
             </div>
