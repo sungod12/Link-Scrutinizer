@@ -11,6 +11,7 @@ const Page4 = () => {
     <>
       <section id="about-us">
         <h1 id="title">About Us</h1>
+        <div id="para-container">
         <p id="first-para">
           We have set a goal to develop a real time system to prevent users from
           most common and serious threat of malicious URLs to cybersecurity by
@@ -37,6 +38,8 @@ const Page4 = () => {
           learning approach which assure 90% accuracy on scrutinizing of URLs.
         </p>
         <p id="last-para">#besafewithus</p>
+        </div>
+        
         <p id="team-title">meet our team</p>
         <div id="member-container">
           <div id="member-1">

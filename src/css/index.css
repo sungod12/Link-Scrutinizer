@@ -64,7 +64,7 @@ nav .links a {
   font-family: "Segoe UI Regular";
 }
 #main-title{
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Segoe UI Semibold";
   color: #fff;
   text-align: center;
@@ -78,26 +78,44 @@ nav .links a {
 #search {
   border: 1px black solid;
     background-color: transparent;
-    font-size: 20px;
-    border-radius: 40px;
-    margin-left: -6%;
+    font-size: 12px;
+    margin-left: -110%;
+    margin-bottom: 5px;
     border: 4px black solid;
+    border-radius: 40px;
     outline: none;
     cursor: pointer;
-    width: 70px;
-    height: 50px; 
+    width: 49px;
+    height: 49px;
+}
+#search-container{
+  /* border:5px yellow solid; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+#bar-container{
+    /* border: 5px green solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+#button-container{
+  /* border: 5px red solid; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 #search-bar {
   font-size: 25px;
   width: 800px;
   height: 60px;
   border-radius: 50px;
-  margin-left: 280px;
   color: #fff;
   padding-left: 30px;
   background: rgb(255 255 255 / 20%);
   margin-top: 40px;
-  margin-right: auto;
   outline: none;
 }
 #bottom {
@@ -107,9 +125,6 @@ nav .links a {
   color: #fff;
   text-align: center;
 } 
-h2 {
-  margin-top: 100%;
-}
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
@@ -150,7 +165,6 @@ h2 {
   #search {
     font-size: 20px;
     border-radius: 40px;
-    margin-left: -5%;
     width: 69px;
     height: 69px; 
     cursor: pointer;
@@ -158,7 +172,6 @@ h2 {
   #search-bar {
     width: 900px;
     height: 80px;
-    margin-left: 500px;
   }
   #bottom {
     font-size: 50px;
