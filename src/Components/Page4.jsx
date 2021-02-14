@@ -135,7 +135,6 @@ const Page4 = () => {
         </div>
         <hr />
         <div id="bottom-container">
-          <p id="contact">Reach Us</p>
           <p id="email">teamlinkscrutinizer@gmail.com</p>
           <p id="privacy">privacy policy</p>
           <p id="copyright">copyright {year} @ link scrutinizer </p>

@@ -5,6 +5,7 @@
 }
 #about-us{
     background-color: #181C2E;
+    padding: 5% 10%;
 }
 #title{
     font-family: 'Segoe UI Regular';
@@ -18,7 +19,7 @@
     font-size: 25px;
     text-align: justify;
     color:#fff;
-    margin-top: 30px;
+    margin-top: 3%;
 }
 #para-container{
     display: flex;
@@ -40,13 +41,15 @@
 #team-title{
     font-size:40px;
     color:#fff;
-    font-family: 'Segoe UI Regular';
+    font-family: 'Segoe UI Semibold';
     text-align: center;
+    margin:5% 0;
 }
 #name{
     font-family: 'Segoe UI Semibold';
     font-size: 30px;
     color: #fff;
+    margin-top: 5%;
 }
 #jtitle{
     font-family: 'Segoe UI Regular';
@@ -60,6 +63,8 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
+    margin-left:15%;
+    margin-right: 15%;
 }
 #member-1,#member-2,#member-3{
     /* border: 10px red solid; */
@@ -71,21 +76,25 @@
     margin-top: 5px;
     height: 120px;
 }
+.MuiSvgIcon-root{
+    width: 50px;
+    height: 50px;
+}
 #mem-logo{
-    width: 190px;
-    height: 170px;
+    width: 240px;
+    height: 190px;
 }
 #circle-1,#circle-2,#circle-3{
     margin-bottom: 10px;
     background-color:white;
     border: 5px white solid;
-    border-radius: 100px;
-    width:200px;
-    height: 200px;
+    border-radius: 250px;
+    width:250px;
+    height: 250px;
 }
 #email,#privacy,#copyright{
     font-family: 'Segoe UI Regular';
-    font-size: 20px;
+    font-size: 25px;
 }
 p{
     color:#fff;
@@ -101,10 +110,11 @@ p{
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
-    padding-bottom: 60px;
+    padding-bottom: 5%;
+    width: 90%;
 }
 hr{
-    margin:60px 0;
+    margin:10%;
 }
 @media screen and (min-width:1920px){
 #title{
@@ -112,7 +122,6 @@ hr{
 }
 #first-para,#second-para,#third-para{
     font-size: 30px;
-    margin-top: 30px;
 }
 #name{
     font-size: 40px;
@@ -131,6 +140,9 @@ hr{
 }
 #contact{
     font-size: 35px;
+}
+hr{
+    margin:10% 10% 5% 10% ;
 }
 }
 @media screen and (device-width:1440px){
