@@ -161,6 +161,10 @@ nav .links a {
   }
 }
 @media screen and (min-width: 1920px) {
+  #page2{
+    padding-bottom: 10%;
+    padding-top: 5%;
+  }
   #main-logo {
     width: 450px;
     margin-top: 5px;
@@ -185,8 +189,8 @@ nav .links a {
   }
   #bottom {
     font-size: 2.5rem;
-    margin-bottom: 4%;
-    margin-top: 280px;
+    padding-bottom: 5%;
+    margin-top: 350px;
   } 
   
 }

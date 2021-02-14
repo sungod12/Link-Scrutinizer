@@ -120,8 +120,12 @@ hr{
 #title{
     font-size: 70px;
 }
-#first-para,#second-para,#third-para{
+#first-para,#second-para,#third-para,#last-para{
     font-size: 30px;
+    width: 1680px;
+}
+#text-4{
+    margin-top: 5px;
 }
 #name{
     font-size: 40px;
@@ -143,6 +147,9 @@ hr{
 }
 hr{
     margin:10% 10% 5% 10% ;
+}
+#logos{
+    height: 120px;
 }
 }
 @media screen and (device-width:1440px){

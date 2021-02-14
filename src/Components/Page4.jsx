@@ -45,9 +45,6 @@ const Page4 = () => {
           <div id="member-1">
             <div id="circle-1"><img src={logo} id="mem-logo"/></div>
             <p id="name">Adarsh Pednekar</p>
-            <p id="jtitle" style={{ padding: "10px" }}>
-              Backend Developer
-            </p>
             <div id="logos">
               <GitHubIcon
                 style={{
@@ -75,9 +72,6 @@ const Page4 = () => {
           <div id="member-2">
             <div id="circle-2"><img src={logo} id="mem-logo"/></div>
             <p id="name">Sushant Pagam</p>
-            <p id="jtitle" style={{ padding: "10px" }}>
-              Everything Developed
-            </p>
             <div id="logos">
               <GitHubIcon
                 style={{
@@ -105,9 +99,6 @@ const Page4 = () => {
           <div id="member-3">
             <div id="circle-3"><img src={logo} id="mem-logo"/></div>
             <p id="name">Suraj Prabhu</p>
-            <p id="jtitle" style={{ padding: "10px" }}>
-              FrontEnd Developer
-            </p>
             <div id="logos">
               <GitHubIcon
                 style={{
