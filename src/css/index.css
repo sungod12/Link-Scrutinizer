@@ -120,10 +120,12 @@ nav .links a {
 }
 #bottom {
   font-size: 35px;
-  margin-top: 190px;
+  /* margin-top: 190px; */
   font-family: "Segoe UI Regular";
   color: #fff;
   text-align: center;
+  padding-bottom: 5%;
+  margin-top: 250px;
 } 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */

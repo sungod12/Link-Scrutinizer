@@ -63,8 +63,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
-    margin-left:15%;
-    margin-right: 15%;
+    
 }
 #member-1,#member-2,#member-3{
     /* border: 10px red solid; */
@@ -110,11 +109,10 @@ p{
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
-    padding-bottom: 5%;
     width: 90%;
 }
 hr{
-    margin:10%;
+    margin: 3% 7%;
 }
 @media screen and (min-width:1920px){
 #title{
@@ -135,6 +133,7 @@ hr{
 }
 #team-title{
     font-size:70px;
+    margin: 7% 0;
 }
 #email,#privacy,#copyright{
     font-size: 30px;
@@ -146,10 +145,14 @@ hr{
     font-size: 35px;
 }
 hr{
-    margin:10% 10% 5% 10% ;
+margin: 3% 10% 4% 10%;
 }
 #logos{
     height: 120px;
+}
+#member-container{
+    margin-left:15%;
+    margin-right: 15%;
 }
 }
 @media screen and (device-width:1440px){
