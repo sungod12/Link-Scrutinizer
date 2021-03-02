@@ -26,7 +26,7 @@ const HomePage = () => {
     // console.log(response);
 
     let ur={
-      "url":`"${result}"`,
+      "url":`${result}`,
     };
     let obj=JSON.stringify(ur);
     let param = {
@@ -38,7 +38,7 @@ const HomePage = () => {
       body:obj,
     };
     
-    let urlToUser= "http://linkscrutinizer.herokuapp.com/url";
+    let urlToUser= "https://linkscrutinizer.herokuapp.com/url";
     // let res = await resp.json();
     // alert(res);
 
