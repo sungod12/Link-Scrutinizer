@@ -6,9 +6,9 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("../images/homepage_bg.png");
-  background-size: auto;
-  background-repeat: round;
+  background: #181C2E;;
+  /* width:100vh; */
+  /* background-image: url("../images/homepage_bg.png"); */
 }
 .container {
   position: relative;
@@ -127,6 +127,15 @@ nav .links a {
   padding-bottom: 5%;
   margin-top: 250px;
 } 
+#gtitle-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin-top: 9%;
+}
+
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;

@@ -6,13 +6,13 @@
 #about-us{
     background-color: #181C2E;
     padding: 5% 10%;
+    height: 100vh;
 }
 #title{
     font-family: 'Segoe UI Regular';
     text-align:center;
     color: #fff;
     font-size: 35px;
-    padding-top: 100px;
 }
 #first-para,#second-para,#third-para{
     font-family: 'Segoe UI Regular';

@@ -7,9 +7,15 @@ const Page3 = () => {
       <section id="page-3">
         <div id="main-container">
           <div id="container">
-            <p id="text-1">Link Scrutinizer<br/>Android App</p>
+            <p id="text-1">
+              Link Scrutinizer
+              <br />
+              Android App
+            </p>
             <p id="text-2">Available on Google Play store</p>
-            <button id="download">Download Now</button>
+            <a href="https://play.google.com/store" target="_blank">
+              <button id="download">Download Now</button>
+            </a>
           </div>
           <div id="container-2">
             <div id="mockup-box"></div>
@@ -24,7 +30,12 @@ const Page3 = () => {
             <p id="text-4">
               Link Scrutinizer extension is also available on chrome web store.
             </p>
-            <button id="extension">Add to chrome</button>
+            <a
+              href="https://chrome.google.com/webstore/category/extensions"
+              target="_blank"
+            >
+              <button id="extension">Add to Chrome</button>
+            </a>
           </div>
         </div>
       </section>

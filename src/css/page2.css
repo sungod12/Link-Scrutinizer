@@ -6,8 +6,10 @@
 #page2{
     /* width: 114%; */
     background-color: #181C2E;
-    padding-bottom: 3%;
-    padding-top: 4%;
+    margin-bottom: 5%;
+    /* padding-top: 4%; */
+    width:95vw;
+    height: 100vh;
 }
 #page2-title{
     font-family: 'Segoe UI Regular';
