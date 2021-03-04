@@ -167,6 +167,41 @@ img{
 /* .arrow-icon{
   
 } */
+.result{
+  line-height: 1.5rem;  
+  text-align: center;
+  width: 90%;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI Semibold';
+  margin-top: 2rem;
+  margin: 0;
+}
+.result--safe{
+  color:#1AE227;
+}
+.result--unsafe{
+  color:red;
+}
+.result-container{
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+#circleicon{
+  margin:0;
+  padding:0;
+  width: 0;
+  height: 2rem;
+  margin-right: 0.2rem;
+}
+.circleicon--green{
+  color:green;
+}
+.circleicon--red{
+  color:red;
+}
+
 @media (min-width:600px)
 {
   html{

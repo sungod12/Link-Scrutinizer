@@ -31,6 +31,7 @@
     flex-direction: column-reverse;
     align-items: flex-start;
     justify-content: space-around;
+    margin-right: 20%;
 }
 #container-2 {
     /* border: 10px green solid; */
@@ -101,6 +102,9 @@
     width: 550px;
     height: 350px;
 }
+#bottom-container{
+  padding-bottom: 50px;
+}
 @media screen and (min-width: 1920px) {
   #text-1 {
     font-size: 60px;
@@ -135,6 +139,6 @@
 }
   #mockup-box,#mockup-box-2 {
     width: 800px;
-    height: 480px;
+    height: 550px;
   }
 }
