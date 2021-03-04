@@ -13,12 +13,12 @@ const Page3 = () => {
               Android App
             </p>
             <p id="text-2">Available on Google Play store</p>
-            <a href="https://play.google.com/store" target="_blank">
+            <a href="https://play.google.com/store/apps/details?id=mobile.app.linkscrutinizer" target="_blank">
               <button id="download">Download Now</button>
             </a>
           </div>
           <div id="container-2">
-            <div id="mockup-box"></div>
+            <iframe  id="mockup-box" controls="0" src="https://www.youtube.com/embed/dSsKU1MRDco" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         </div>
         <div id="main-container-2">

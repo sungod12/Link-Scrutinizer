@@ -46,20 +46,21 @@ const Page4 = () => {
             <div id="circle-1"><img src={logo} id="mem-logo"/></div>
             <p id="name">Adarsh Pednekar</p>
             <div id="logos">
-              <GitHubIcon
+              <a href="https://github.com/adarshped1525"><GitHubIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
               />
-              <LinkedInIcon
+              </a>
+              <a href="https://www.linkedin.com/in/adarsh-pednekar-11ba55183/"><LinkedInIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
-              />
+              /></a>
               <InstagramIcon
                 style={{
                   color: "white",
@@ -73,54 +74,56 @@ const Page4 = () => {
             <div id="circle-2"><img src={logo} id="mem-logo"/></div>
             <p id="name">Sushant Pagam</p>
             <div id="logos">
-              <GitHubIcon
+              <a href="https://github.com/SushantP199"><GitHubIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
               />
-              <LinkedInIcon
+              </a>
+              <a href="https://www.linkedin.com/in/sushant-pagam/"><LinkedInIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
-              />
-              <InstagramIcon
+              /></a>
+              <a><InstagramIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
-              />
+              /></a>
             </div>
           </div>
           <div id="member-3">
             <div id="circle-3"><img src={logo} id="mem-logo"/></div>
             <p id="name">Suraj Prabhu</p>
             <div id="logos">
-              <GitHubIcon
+              <a href="https://github.com/sungod12"><GitHubIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
               />
-              <LinkedInIcon
+              </a>
+              <a href="https://www.linkedin.com/in/suraj-prabhu-228475188/"><LinkedInIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
-              />
-              <InstagramIcon
+              /></a>
+             <a><InstagramIcon
                 style={{
                   color: "white",
                   fontSize: "40px",
                   marginRight: "20px",
                 }}
-              />
+              /></a>
             </div>
           </div>
         </div>

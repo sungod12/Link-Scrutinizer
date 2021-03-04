@@ -15,16 +15,16 @@ const Page2 = () => {
             </p>
           </div>
           <div id="sub-container-1">
+            <div id="api-2-container">
+              <p id="call-api">How to call API ?</p>
+            </div>
             <div id="api-1-container">
               <h3 id="direction-text">Direction to consume API :</h3>
               <div id="box-1">
                 <p id="content-1">
-                  http://api.openweathermap.org/data/2.5/forecast?
+                https://linkscrutinizer.herokuapp.com/url
                 </p>
               </div>
-            </div>
-            <div id="api-2-container">
-              <p id="call-api">How to call API ?</p>
             </div>
           </div>
 
@@ -40,11 +40,11 @@ const Page2 = () => {
             <div id="text-container-2">
               <div id="box-2">
                 <p id="error-code">
-                  "cod": 429, "message": "Your account is temporary blocked due
-                  to exceeding of requests limitation of your subscription type.
-                  <br />
-                  Please choose the proper subscription http://
-                  openweathermap.org/price"
+                "isBenign": true,<br/>
+                "scrutiny": 
+                  "autonomousSystem": "AS15169 GOOGLE",<br/>
+                  "host": "www.google.com",
+                 <br/> "status": "URL is Safe you are good to go with !"
                 </p>
               </div>
             </div>

@@ -7,71 +7,87 @@ const Navbar = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
-  // var prevScrollpos = window.pageYOffset;
-  // window.onscroll = function () {
-  //   var currentScrollPos = window.pageYOffset;
-  //   if (prevScrollpos > currentScrollPos) {
-  //     document.getElementById("navigationBar").style.top = "0";
-  //   } else {
-  //     document.getElementById("navigationBar").style.top = "-100px";
-  //   }
-  //   prevScrollpos = currentScrollPos;
-  // };
+  const opennav = () => {
+    const navToggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector(".nav");
+
+    navToggle.addEventListener("click", () => {
+      nav.classList.toggle("nav--visible");
+    });
+  };
   return (
     <>
-      <nav id="navigationBar">
-        {/* <input id="nav-toggle" type="checkbox" /> */}
-        <div className="logo">
-          <img src={logo} onClick={scrollToTop} id="main-logo"  />
-        </div>
-        <ul className="links">
-          <li>
-            <a onClick={scrollToTop}>Home</a>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="aboutus"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              About Us
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="apiguide"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              API Guide
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="downloads"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Downloads
-            </Link>
-          </li>
-        </ul>
-
-        <label htmlFor="nav-toggle" className="icon-burger">
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </label>
-      </nav>
+      <header>
+          <button
+            className="nav-toggle"
+            onFocus={opennav}
+            aria-label="open navigation"
+          >
+            <span className="hamburger"></span>
+          </button>
+          <div className="container row">
+          <a className="logo" href="#">
+            <img src={logo} className="hero__img" alt="link scrutinizer logo" />
+          </a>
+          <nav className="nav">
+            <ul className="nav__list nav__list--primary">
+              <li className="nav__item">
+                <Link
+                  activeClass="active"
+                  to="homepage"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="nav__link"
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="nav__item">
+                <Link
+                  activeClass="active"
+                  to="apiguide"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="nav__link"
+                >
+                  API Guide
+                </Link>
+              </li>
+              <li className="nav__item">
+                <Link
+                  activeClass="active"
+                  to="downloads"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="nav__link"
+                >
+                  Downloads
+                </Link>
+              </li>
+              <li className="nav__item">
+                <Link
+                  activeClass="active"
+                  to="aboutus"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="nav__link"
+                >
+                  About Us
+                </Link>
+              </li>
+            </ul>
+            </nav>
+            </div>
+      </header>
+      
     </>
   );
 };

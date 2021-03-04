@@ -1,6 +1,6 @@
 {
   "name": "link-scrutinizer",
-  "homepage":"https://sungod12.github.io/link-scrutinizer",
+  "homepage": "https://sungod12.github.io/link-scrutinizer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^12.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-loading-animation": "^1.4.0",
     "react-scripts": "4.0.2",
     "react-scroll": "^1.8.1",
     "web-vitals": "^1.1.0"
