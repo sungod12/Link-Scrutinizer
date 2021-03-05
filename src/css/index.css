@@ -8,17 +8,17 @@ body {
 }
 .container{
   /* border:2px red solid; */
-  width: 90%;
+  width: 95%;
   max-width: 100rem; 
-  min-width: 21.875rem;
+  min-width: 27.875rem;
   margin: 0 auto;
 }
 .main-title{
   color:white;
   /* border: 1px yellow solid; */
   font-size: 1.5rem;
-  padding: 2rem 0;
-  margin: 0;
+  padding: 1.95rem 0;
+  margin: 0 auto;
   text-align: center;
 }
 .hero_container{
@@ -29,15 +29,15 @@ body {
 }
 .bottom{
   text-align: center;
-  margin-top: 25vh;
-  margin-bottom: 10vh;
+  margin-top: 30vh;
+  margin-bottom: 11vh;
 }
 input{
   background-color: rgba(255, 255, 255, 0.198);
   border-radius: 2rem;
   outline: none;
   border: none;
-  padding:0.6em;
+  padding:1rem;
   width: 80%;
   max-width: 24rem;
   font-size: 0.62rem;
@@ -46,13 +46,14 @@ input{
 
 .search{
   border-radius: 50%;
-  width: 1.6rem;
+  width: 1.5rem;
   height: 1.6rem;
   margin-left: -10%;
   border: none;
   background-color: rgba(255, 255, 255, 0.05);
   outline: none;
   color: white;
+  align-self: center;
 }
 
 button:hover{
@@ -255,9 +256,6 @@ img{
   }
 }
 @media (min-width:900px){
-  html{
-    font-size: 25px;
-  }
   .nav__list{
     margin-left: 0.15rem;
   }
@@ -265,8 +263,3 @@ img{
     margin-left: -5%;
   }
 }
-@media (min-width:1800px){
-  html{
-    font-size: 35px;
-  }
-} 

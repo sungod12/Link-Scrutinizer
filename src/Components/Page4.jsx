@@ -10,6 +10,7 @@ const Page4 = () => {
   return (
     <>
       <section id="about-us">
+        <div className="container">
         <h1 id="title">About Us</h1>
         <div id="para-container">
         <p id="first-para">
@@ -132,6 +133,7 @@ const Page4 = () => {
           <p id="email">teamlinkscrutinizer@gmail.com</p>
           <p id="privacy">privacy policy</p>
           <p id="copyright">copyright {year} @ link scrutinizer </p>
+        </div>
         </div>
       </section>
     </>
