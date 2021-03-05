@@ -23,7 +23,6 @@ const HomePage = () => {
     let response = await fetch(urlToUser, param);
     let res = await response.json();
     getStat(res.scrutiny["status"]);
-    console.log(stat);
   };
 
   return (
