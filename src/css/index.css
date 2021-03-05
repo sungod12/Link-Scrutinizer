@@ -29,31 +29,30 @@ body {
 }
 .bottom{
   text-align: center;
-  margin-top: 31vh;
+  margin-top: 25vh;
   margin-bottom: 10vh;
 }
 input{
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.198);
   border-radius: 2rem;
   outline: none;
   border: none;
   padding:0.6em;
-  width: 70%;
-  font-size: 1rem;
+  width: 80%;
   max-width: 24rem;
+  font-size: 0.62rem;
+  color: white;
 }
 
 .search{
   border-radius: 50%;
-  width: 1.7rem;
-  height: 1.7rem;
-  align-self: center;
+  width: 1.6rem;
+  height: 1.6rem;
   margin-left: -10%;
   border: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
   outline: none;
   color: white;
-  /* margin-right: auto; */
 }
 
 button:hover{
@@ -144,6 +143,7 @@ header {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .nav__link--button {
   padding: 0.25rem 0.75rem;
@@ -173,12 +173,9 @@ img{
   /* Microsoft Edge */
   color: #fff;
 }
-
-
 .result{
   line-height: 1.5rem;  
   text-align: center;
-  width: 90%;
   font-size: 1.3rem;
   font-family: 'Segoe UI Semibold';
   margin-top: 2rem;
@@ -191,19 +188,21 @@ img{
   color:red;
 }
 .result-container{
+  /* border: 2px red solid; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 3em;
 }
 #circleicon{
   margin:0;
   padding:0;
-  width: 0;
-  height: 2rem;
-  margin-right: 0.2rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  align-self:center;
 }
 .circleicon--green{
-  color:green;
+  color:#1AE227;
 }
 .circleicon--red{
   color:red;
@@ -250,6 +249,9 @@ img{
     height: 2rem;
     align-self: center;
     margin-left: -10%;
+  }
+  input{
+    padding: 0.9rem;
   }
 }
 @media (min-width:900px){

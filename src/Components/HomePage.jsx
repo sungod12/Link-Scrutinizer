@@ -6,7 +6,6 @@ import False from "./False";
 
 const HomePage = () => {
   const [stat, getStat] = useState("");
-
   const fetchResult = async () => {
     let result = document.querySelector("input").value;
     let param = {
@@ -18,13 +17,11 @@ const HomePage = () => {
         "Content-Type": "application/json",
       },
     };
-
     let urlToUser = "https://linkscrutinizer.herokuapp.com/url";
     let response = await fetch(urlToUser, param);
     let res = await response.json();
     getStat(res.scrutiny["status"]);
   };
-
   return (
     <>
       <div className="container">
@@ -36,13 +33,15 @@ const HomePage = () => {
           </button>
         </div>
         <div className="result-container">
-          {stat !== "" ? (
+          {
+            stat !== "" ? (
             stat.includes("Safe") ? (
               <True status={stat} />
             ) : (
               <False status={stat} />
             )
-          ) : null}
+          ) : null
+          }
         </div>
         <p className="bottom">#beSafewithus!</p>
       </div>

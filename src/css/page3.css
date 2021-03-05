@@ -5,7 +5,7 @@
 }
 #page-3{
     background-color: #181c2e;
-    padding: 15% 0;
+    margin: 21% 0;
 }
 #main-container {
     /* border: 10px blue solid; */
@@ -14,7 +14,7 @@
     align-items:center;
     justify-content: space-around;
     margin-left: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     
 }
 #main-container-2 {
