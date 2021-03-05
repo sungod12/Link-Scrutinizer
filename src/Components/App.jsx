@@ -12,7 +12,7 @@ const App = () => {
       <div id="home">
         <HomePage />
       </div>
-      {/* <div id="apiguide">
+      <div id="apiguide">
         <Page2 />
       </div>
       <div id="downloads">
@@ -20,7 +20,7 @@ const App = () => {
       </div>
       <div id="aboutus">
         <Page4 />
-      </div>  */}
+      </div> 
     </>
   );
 };
