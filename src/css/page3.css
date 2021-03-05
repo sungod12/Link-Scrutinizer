@@ -56,7 +56,7 @@ iframe{
 @media (min-width:900px){
   .hero__container1{
     flex-direction: row;
-    margin-left: 1.5rem;
+    margin:6rem 0 0 3rem;
   }
   .col{
     align-items: flex-start;
@@ -73,5 +73,10 @@ iframe{
   }
   .app-desc-mod{
     width: 80%;
+  }
+}
+@media (min-width:1800px){
+  .hero__container1{
+    margin: 6rem auto;
   }
 }

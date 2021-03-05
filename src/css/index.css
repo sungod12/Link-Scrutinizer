@@ -256,6 +256,9 @@ img{
   }
 }
 @media (min-width:900px){
+  html{
+    font-size: 30px;
+  }
   .nav__list{
     margin-left: 0.15rem;
   }

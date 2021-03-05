@@ -57,7 +57,7 @@
         padding-left: 3rem;
     }
 }
-@media (min-width:900px){
+@media (min-width:900px) {
     .hero__container{
         flex-direction: row;
         justify-content:space-between;
@@ -69,7 +69,7 @@
         /* border: 1px red solid; */
         margin-bottom: 0.2rem;
         text-align: left;
-        margin-left: 2.3rem;
+        margin-left: 3.3rem;
         width: 30%;
         flex:1;
     }
@@ -79,7 +79,7 @@
         align-self: flex-start
     }
     .content{
-        padding: 1rem;
+        padding: 0.3rem 1rem;
         flex: 0;
     }
     .content--response{
@@ -94,6 +94,12 @@
 @media (min-width:1800px){
     html{
         font-size: 38px;
+    }
+    .col{
+        margin-left: 2rem;
+    }
+    .api-text--title{
+        margin-left: 2.3rem;
     }
 }
 
