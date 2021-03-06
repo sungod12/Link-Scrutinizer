@@ -79,7 +79,7 @@
         align-self: flex-start
     }
     .content{
-        padding: 0.3rem 1rem;
+        padding: 0.01rem 1rem;
         flex: 0;
     }
     .content--response{
@@ -91,15 +91,17 @@
         padding:1rem 3rem;
     }
 }
-@media (min-width:1800px){
-    html{
-        font-size: 38px;
+@media (min-width:1200px){
+    .api-text--title{
+        margin-left: 2.50rem;
     }
+}
+@media (min-width:1800px){
     .col{
         margin-left: 2rem;
     }
     .api-text--title{
-        margin-left: 2.3rem;
+        margin-left: 2.7rem;
     }
 }
 

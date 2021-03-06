@@ -218,7 +218,7 @@ img{
     /* border: 4px orange solid; */
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 95%;
   }
   .nav{
     visibility:visible;
@@ -256,13 +256,20 @@ img{
   }
 }
 @media (min-width:900px){
-  html{
-    font-size: 30px;
-  }
   .nav__list{
     margin-left: 0.15rem;
   }
   .search{
     margin-left: -5%;
+  }
+}
+@media (min-width:1200px){
+  html{
+    font-size: 28px;
+  }
+}
+@media (min-width:1800px){
+  html{
+    font-size: 35px;
   }
 }

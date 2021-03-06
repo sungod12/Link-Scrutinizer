@@ -46,7 +46,7 @@ const Page4 = () => {
           <div className="member-container">
             <div className="member">
               <div className="circle">
-                <img src={logo} className="mem-logo" />
+                <img src={logo} className="mem-logo" alt="member-logo"/>
               </div>
               <p className="name">Adarsh Pednekar</p>
               <div className="logos">
@@ -61,7 +61,7 @@ const Page4 = () => {
             </div>
             <div className="member">
               <div className="circle">
-                <img src={logo} className="mem-logo" />
+                <img src={logo} className="mem-logo" alt="member-logo"/>
               </div>
               <p className="name">Sushant Pagam</p>
               <div className="logos">
@@ -78,7 +78,7 @@ const Page4 = () => {
             </div>
             <div className="member">
               <div className="circle">
-                <img src={logo} className="mem-logo" />
+                <img src={logo} className="mem-logo" alt="member-logo"/>
               </div>
               <p className="name">Suraj Prabhu</p>
               <div className="logos">
