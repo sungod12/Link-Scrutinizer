@@ -20,11 +20,10 @@ body{
 .app-desc-font{
   font-family: 'Segoe UI Regular';
   margin-top: 0.8rem;
-  /* margin-left: 0.7rem; */
 }
 .download{
   /* border: 10px yellow solid; */
-  padding: 1rem 2rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 1rem;
   outline: none;
   border: none;

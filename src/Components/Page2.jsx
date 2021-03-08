@@ -2,6 +2,9 @@ import React from "react";
 import "../css/page2.css";
 
 const Page2 = () => {
+  var _reqheader='{"Content-Type":"application/json"}';
+  var _reqbody='{\n"url":"www.google.com"}';
+  var _response='{"isBenign": true, "scrutiny":{"autonomousSystem": "AS15169 GOOGLE", "host": "www.google.com", "status": "URL is Safe you are good to go with !"}}';
   return (
     <>
       <section id="page2">
@@ -12,29 +15,44 @@ const Page2 = () => {
             malicious URL for internet citizens to add bit of security check in
             their application or business needs.
           </p>
-          <p className="api-text--title">How to call API ?</p>
-          <div className="hero__container">
-            <h3 className="api-text--white">Direction to consume API :</h3>
+          <p className="api-text--title">Direction to consume API :</p>
+          <div className="container-col">
+          <div className="hero__container ">
+            <h3 className="api-text--white">How to call API ?</h3>
+            <div className="column">
+            <h3 className="col-heading">Request URL</h3>
             <div className="content">
               <p className="content-text">
                 https://linkscrutinizer.herokuapp.com/url
               </p>
             </div>
+            <h3 className="col-heading">Request Header(Optional)</h3>
+            <div className="content content--padding">
+              <p className="content-text">
+                {_reqheader}
+              </p>
+            </div>
+            <h3 className="col-heading">Request Body</h3>
+            <div className="content content--padding-2">
+              <p className="content-text">
+               {_reqbody}
+              </p>
+            </div>
+            </div>
           </div>
           {/* second-content */}
-          <h3 className="api-text--title">API response:</h3>
-          <div className="hero__container">
+          <div className="hero__container column">
+          <h3 className="api-text--white api-text--margin">API response:</h3>
             <p className="content--response">
               The API will provide you formatted json object as shown in right
               box that you can parse and apply to your application.
             </p>
             <div className="content content--2">
               <p className="content-text">
-                "isBenign": true, "scrutiny":"autonomousSystem": "AS15169
-                GOOGLE", "host": "www.google.com", "status": "URL is Safe you
-                are good to go with !"
+                {_response}
               </p>
             </div>
+          </div>
           </div>
         </div>
       </section>

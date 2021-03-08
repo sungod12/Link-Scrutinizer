@@ -229,7 +229,7 @@ img{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: -1rem;
+    margin-top: -1.5em;
     margin-left: -11rem;
   }
   .nav-toggle{

@@ -26,9 +26,10 @@
     text-align: center;
     font-size: 1.4rem;
     color:white;
+    margin-bottom: 10px;
 }
 .api-text--white{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color:white;
     margin: 1rem auto;
     color: white;
@@ -36,10 +37,32 @@
 }
 .content{
     background-color:#c9c6c6f8;;
-    padding: 1rem 0.7rem;
+    padding: 0 0.7rem;
     border-radius: 1rem;
-    width: 90%;  
-    margin-bottom: 2.4rem;
+    text-align: center;
+    width: 25.625rem;
+}
+.col-heading{
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+.column{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+.row1{
+    border:1px red solid;
+}
+.content--padding{
+    padding-right:2rem;
+    padding-left:2rem;
+}
+.content--padding-2{
+    padding-right:4rem;
+    padding-left:4rem;
 }
 .content-text{
     color:black;
@@ -49,59 +72,61 @@
     color:white;
     font-family: 'Segoe UI';
     width: 90%;
-    max-width: 650px;
-    margin-bottom: 0.8rem;
+    margin-bottom:1rem;
+}
+.api-text--margin{
+    margin-top: 2rem;
 }
 @media (min-width:600px){
     .content{
         padding-left: 3rem;
+        text-align: left;
+        width: 95%;
     }
 }
 @media (min-width:900px) {
     .hero__container{
-        flex-direction: row;
-        justify-content:space-between;
-        align-items: center;
-        margin: 0 auto;
-        width: 90%;
+        /* width: 90%; */
+        width: 40%;
     }
     .api-text--title{
         /* border: 1px red solid; */
-        margin-bottom: 0.2rem;
         text-align: left;
-        margin-left: 3.3rem;
-        width: 30%;
-        flex:1;
+        margin-right: auto;
+        margin-bottom: 50px;
     }
     .api-text--white{
-        margin: 1rem 0;
+        margin:0;
         color: white;
         align-self: flex-start
     }
     .content{
         padding: 0.01rem 1rem;
-        flex: 0;
+        width: 22.4rem;
+        margin-right: auto;
     }
     .content--response{
-        width: 49%;
         align-self:flex-start;
         margin-top: 1rem;
     }
     .content--2{
         padding:1rem 3rem;
     }
+    .column{
+        /* border: 2px red solid; */
+        flex-direction: column;
+        margin-right: auto;
+        align-items: flex-start;
+        width: 40%;
+    }
+    .container-col{
+        /* border:2px red solid; */
+        display: flex;
+    }
 }
 @media (min-width:1200px){
     .api-text--title{
         margin-left: 2.50rem;
-    }
-}
-@media (min-width:1800px){
-    .col{
-        margin-left: 2rem;
-    }
-    .api-text--title{
-        margin-left: 2.7rem;
     }
 }
 
