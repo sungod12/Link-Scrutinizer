@@ -1,11 +1,14 @@
 import React from "react";
 import "../css/page3.css";
+import AwesomeSlider from 'react-awesome-slider';
+import "../css/slider.css";
 
 const Page3 = () => {
   return (
     <>
       <section id="page-3">
         <div className="container">
+          <AwesomeSlider>
           <div className="hero__container1">
             <div className="col">
               <p className="app-desc">
@@ -35,8 +38,6 @@ const Page3 = () => {
               </div>
             </div>
           </div>
-
-          
           <div className="hero__container1">
           <div className="col">
             <p className="app-desc app-desc-mod">Use directly from your chrome browser</p>
@@ -53,7 +54,8 @@ const Page3 = () => {
           <div className="col">
           <div className="video video--color"></div>
           </div>
-        </div>
+        </div> 
+          </AwesomeSlider>
         </div>
       </section>
     </>

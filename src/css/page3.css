@@ -52,10 +52,10 @@ iframe{
   border-radius: 2rem;
   margin-bottom: 3rem;
 }
+
 @media (min-width:900px){
   .hero__container1{
     flex-direction: row;
-    margin:6rem 0 0 3rem;
   }
   .col{
     align-items: flex-start;
