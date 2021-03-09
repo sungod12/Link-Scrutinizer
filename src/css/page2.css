@@ -79,15 +79,15 @@
 }
 @media (min-width:600px){
     .content{
-        padding-left: 3rem;
+        padding-left: 4rem;
         text-align: left;
-        width: 95%;
     }
 }
 @media (min-width:900px) {
     .hero__container{
         /* width: 90%; */
         width: 40%;
+        margin-right: 4rem;
     }
     .api-text--title{
         /* border: 1px red solid; */
@@ -102,7 +102,7 @@
     }
     .content{
         padding: 0.01rem 1rem;
-        width: 22.4rem;
+        width: 22rem;
         margin-right: auto;
     }
     .content--response{
@@ -110,7 +110,7 @@
         margin-top: 1rem;
     }
     .content--2{
-        padding:1rem 3rem;
+       width: 20rem;
     }
     .column{
         /* border: 2px red solid; */
@@ -125,8 +125,17 @@
     }
 }
 @media (min-width:1200px){
-    .api-text--title{
-        margin-left: 2.50rem;
+    .hero__container{
+        width: auto;
+        margin-right: 3.8rem;
+    }
+    .description{
+        width: auto;
+    }
+}
+@media (min-width:1800px){
+    .hero__container{
+        margin-right: 9rem;
     }
 }
 
