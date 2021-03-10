@@ -27,6 +27,23 @@ body{
   border-radius: 1rem;
   margin-top: 1rem;
 }
+.image{
+  width: 30%;
+  margin-left:3.5rem;
+}
+.animation{
+  animation-name: floatingMob;
+}
+@keyframes floatingMob { 
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+.animation img {
+  animation: floatingMob 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
 .dow{
   /* border: 10px yellow solid; */
   width: 45%;
@@ -57,10 +74,16 @@ body{
     width: auto;
   }
   .app-desc-mod{
-    width: 70%;
+    width: 80%;
   }
-  iframe{
-    margin-left: 2.5rem;
+  .col{
+    /* border:2px red solid; */
+    align-self: center;
+    flex:1 0;
   }
+  .image{
+    margin:0 2rem;
+  }
+
 }
 

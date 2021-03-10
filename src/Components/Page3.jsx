@@ -2,6 +2,8 @@ import React from "react";
 import "../css/page3.css";
 import AwesomeSlider from "react-awesome-slider";
 import "../css/slider.css";
+import img1 from "../images/mobile1.png";
+import img2 from "../images/mobile2.png";
 
 const Page3 = () => {
   return (
@@ -21,14 +23,16 @@ const Page3 = () => {
                   Available on Google Play store
                 </p>
               </div>
-              <div className="col">
-                <iframe
+              <div className="col animation">
+                {/* <iframe
                   controls="0"
                   src="https://www.youtube.com/embed/dSsKU1MRDco"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                />
+                /> */}
+                <img src={img1} alt="" srcset="" className="image"/>
+                <img src={img2} alt="" srcset="" className="image"/>
               </div>
               </div>
               <div className="dow">
