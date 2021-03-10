@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/link-scrutinizer/static/css/main.628ebe8f.chunk.css",
+    "main.css": "/link-scrutinizer/static/css/main.4e296d9c.chunk.css",
     "main.js": "/link-scrutinizer/static/js/main.a3066362.chunk.js",
     "main.js.map": "/link-scrutinizer/static/js/main.a3066362.chunk.js.map",
     "runtime-main.js": "/link-scrutinizer/static/js/runtime-main.538332aa.js",
@@ -8,7 +8,7 @@
     "static/js/2.e326014b.chunk.js": "/link-scrutinizer/static/js/2.e326014b.chunk.js",
     "static/js/2.e326014b.chunk.js.map": "/link-scrutinizer/static/js/2.e326014b.chunk.js.map",
     "index.html": "/link-scrutinizer/index.html",
-    "static/css/main.628ebe8f.chunk.css.map": "/link-scrutinizer/static/css/main.628ebe8f.chunk.css.map",
+    "static/css/main.4e296d9c.chunk.css.map": "/link-scrutinizer/static/css/main.4e296d9c.chunk.css.map",
     "static/js/2.e326014b.chunk.js.LICENSE.txt": "/link-scrutinizer/static/js/2.e326014b.chunk.js.LICENSE.txt",
     "static/media/mascot-removebg-preview.3f68dfa9.png": "/link-scrutinizer/static/media/mascot-removebg-preview.3f68dfa9.png",
     "static/media/website_logo.4f38d06f.png": "/link-scrutinizer/static/media/website_logo.4f38d06f.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.538332aa.js",
     "static/js/2.e326014b.chunk.js",
-    "static/css/main.628ebe8f.chunk.css",
+    "static/css/main.4e296d9c.chunk.css",
     "static/js/main.a3066362.chunk.js"
   ]
 }
