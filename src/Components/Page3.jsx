@@ -6,6 +6,7 @@ import img1 from "../images/mobile1.png";
 import img2 from "../images/mobile2.png";
 
 const Page3 = () => {
+  
   return (
     <>
       <section id="page-3">
@@ -31,8 +32,8 @@ const Page3 = () => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 /> */}
-                <img src={img1} alt="" srcset="" className="image"/>
-                <img src={img2} alt="" srcset="" className="image"/>
+                <img src={img1} alt="mobile-screen-1" className="image"/>
+                <img src={img2} alt="mobile-screen-2" className="image"/>
               </div>
               </div>
               <div className="dow">

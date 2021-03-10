@@ -8,6 +8,20 @@
     align-items: center;
     margin: 0 auto;
 }
+.copy-button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.copy-logo{
+    width:1rem;
+    height: 1rem;
+    align-self: center;
+    margin-right: 0.5rem;
+}
+.copy-logo :focus{
+    cursor: pointer;
+}
 .main-title--blue{
     color:#CDEFF8;
     font-size: 2rem;
@@ -32,15 +46,15 @@
     font-size: 1.4rem;
     color:white;
     margin: 1rem auto;
-    color: white;
     align-self: flex-start;
 }
 .content{
     background-color:#c9c6c6f8;;
-    padding: 0 0.7rem;
+    padding-left: 1rem;
     border-radius: 1rem;
-    text-align: center;
     width: 25.625rem;
+    display: flex;
+    justify-content: space-between;
 }
 .col-heading{
     margin-bottom: 0.5rem;
@@ -55,14 +69,6 @@
 }
 .row1{
     border:1px red solid;
-}
-.content--padding{
-    padding-right:2rem;
-    padding-left:2rem;
-}
-.content--padding-2{
-    padding-right:4rem;
-    padding-left:4rem;
 }
 .content-text{
     color:black;
@@ -85,9 +91,11 @@
 }
 @media (min-width:900px) {
     .hero__container{
-        /* width: 90%; */
         width: 40%;
         margin-right: 4rem;
+    }
+    .copy-logo{
+        margin: 0;
     }
     .api-text--title{
         /* border: 1px red solid; */
@@ -127,7 +135,6 @@
 @media (min-width:1200px){
     .hero__container{
         width: auto;
-        margin-right: 3.8rem;
     }
     .description{
         width: auto;

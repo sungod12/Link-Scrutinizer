@@ -1,10 +1,23 @@
+import { Popover, Popper } from "@material-ui/core";
 import React from "react";
 import "../css/page2.css";
+import cplogo from "../images/copy.png";
 
 const Page2 = () => {
   var _reqheader='{"Content-Type":"application/json"}';
-  var _reqbody='{\n"url":"www.google.com"}';
+  var _reqbody='{"url":"www.google.com"}';
   var _response='{"isBenign": true, "scrutiny":{"autonomousSystem": "AS15169 GOOGLE", "host": "www.google.com", "status": "URL is Safe you are good to go with !"}}';
+  function copyElementText(id) {
+    var text = document.getElementById(id).innerHTML;
+    var elem = document.createElement("textarea");
+    document.body.appendChild(elem);
+    elem.value = text;
+    console.log(text);
+    elem.select();
+    document.execCommand("copy");
+    alert("Copied to clipboard");
+    document.body.removeChild(elem);
+  }
   return (
     <>
       <section id="page2">
@@ -22,21 +35,24 @@ const Page2 = () => {
             <div className="column">
             <h3 className="col-heading">Request URL</h3>
             <div className="content">
-              <p className="content-text">
+              <p className="content-text" id="one">
                 https://linkscrutinizer.herokuapp.com/url
               </p>
+             <button className="copy-button" onClick={()=>copyElementText("one")}><img src={cplogo} className="copy-logo"/></button>
             </div>
             <h3 className="col-heading">Request Header(Optional)</h3>
             <div className="content content--padding">
-              <p className="content-text">
+              <p className="content-text" id="two">
                 {_reqheader}
               </p>
+              <button className="copy-button" onClick={()=>copyElementText("two")}><img src={cplogo} className="copy-logo"/></button>
             </div>
             <h3 className="col-heading">Request Body</h3>
             <div className="content content--padding-2">
-              <p className="content-text">
+              <p className="content-text" id="three">
                {_reqbody}
               </p>
+              <button className="copy-button" onClick={()=>copyElementText("three")}><img src={cplogo} className="copy-logo"/></button>
             </div>
             </div>
           </div>
