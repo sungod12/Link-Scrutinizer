@@ -41,7 +41,7 @@ const Page2 = () => {
             </div>
           </div>
           {/* second-content */}
-          <div className="hero__container column">
+          <div className="hero__container">
           <h3 className="api-text--white api-text--margin">API response:</h3>
             <p className="content--response">
               The API will provide you formatted json object as shown in right

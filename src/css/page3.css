@@ -9,7 +9,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items:center;
-  margin: 4rem auto;
+  margin:0
 }
 .app-desc{
   /* border: 1px yellow solid; */
@@ -25,57 +25,35 @@ body{
   /* border: 10px yellow solid; */
   padding: 0.7rem 1.5rem;
   border-radius: 1rem;
-  outline: none;
-  border: none;
   margin-top: 1rem;
 }
-.video{
+.dow{
   /* border: 10px yellow solid; */
-  padding: 1rem 0;
+  width: 45%;
+  margin: 0 auto;
 }
-iframe{
+.video--color,iframe{
   width: 25rem;
   height: 15rem;
-}
-.col{
-  /* border:5px red solid; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
-  width: 90%;
+  border-radius: 2rem;
 }
 .video--color{
-  width: 25rem;
-  height: 15rem;
-  background-color: #707070;
-  border-radius: 2rem;
-  margin-bottom: 3rem;
+  background-color:#707070;
 }
+
 
 @media (min-width:900px){
   .hero__container1{
     flex-direction: row;
   }
-  .col{
-    align-items: flex-start;
-  }
-  .col+.col{
-    margin-top: 5rem;
-  }
   .app-desc,.app-desc-font{
     margin:0.2rem;
     text-align: left;
   }
-  .download{
-    margin-top: 2.5rem;
-  }
-  .app-desc-mod{
-    width: 80%;
-  }
-}
-@media (min-width:1800px){
-  .hero__container1{
-    margin: 6rem auto;
+  .dow{
+    /* border: 2px yellow solid; */
+    flex-direction: column;
+    width: auto;
   }
 }
+
