@@ -38,7 +38,7 @@ const HomePage = () => {
           </button>
         </div>
         <div className="result-container">
-          <Loader type="Circles" color="white" visible={hidden}/>
+          <Loader type="ThreeDots" color="rgba(255, 255, 255, 0.5)" visible={hidden}/>
           {
             stat !== "" ? (
             stat.includes("Safe") ? (
