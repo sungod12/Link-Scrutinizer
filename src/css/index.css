@@ -8,7 +8,7 @@ body {
 }
 .container{
   /* border:2px red solid; */
-  width: 95%;
+  width: 90%;
   max-width: 100rem; 
   min-width: 27.875rem;
   margin:0 auto;
@@ -29,8 +29,8 @@ body {
 }
 .bottom{
   text-align: center;
-  margin-top: 30vh;
-  margin-bottom: 11vh;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
 }
 input{
   background-color: rgba(255, 255, 255, 0.198);

@@ -28,8 +28,11 @@ body{
   margin-top: 1rem;
 }
 .image{
-  width: 30%;
-  margin-left:3.5rem;
+  width: 8.75rem;
+  margin:0 2rem;
+}
+.image--big{
+  width: 9.375em;;
 }
 .animation{
   animation-name: floatingMob;
@@ -64,6 +67,7 @@ body{
   }
   .app-desc,.app-desc-font{
     text-align: left;
+    width: auto; 
   }
   .dow{
     /* border: 2px yellow solid; */
@@ -72,19 +76,20 @@ body{
   }
   .col{
     /* border:2px red solid; */
-    align-self: center;
     flex:1 0;
   }
-  .image,.video--color{
-    margin-left: 5rem;
-  }
-}
-@media (min-width:1800px){
-  .app-desc{
-    margin-right: 11rem;
+  .animation{
+    padding-left: 16rem;
   }
   .video--color{
-    margin-left: 3.5rem;
+    margin-left: 4rem;
+  }
+  .image{
+    width: 5rem;
+    margin-right:5px;
+  }
+  .image--big{
+    width: 6rem;
   }
 }
 

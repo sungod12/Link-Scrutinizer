@@ -126,7 +126,7 @@
       display: none; }
     @media all and (min-width: 520px) {
       .awssld{
-        --slider-height-percentage: 115%;
+        --slider-height-percentage: 125%;
       }
       .awssld__controls {
         visibility: hidden; } }

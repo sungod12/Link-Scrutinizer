@@ -33,7 +33,7 @@ const Page3 = () => {
                   allowFullScreen
                 /> */}
                 <img src={img1} alt="mobile-screen-1" className="image"/>
-                <img src={img2} alt="mobile-screen-2" className="image"/>
+                <img src={img2} alt="mobile-screen-2" className="image image--big"/>
               </div>
               </div>
               <div className="dow">
