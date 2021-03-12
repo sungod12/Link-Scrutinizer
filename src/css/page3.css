@@ -9,7 +9,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items:center;
-  margin:0
+  margin:0 auto;
 }
 .app-desc{
   /* border: 1px yellow solid; */
@@ -49,14 +49,13 @@ body{
   width: 45%;
   margin: 0 auto;
 }
-.video--color,iframe{
+.video--color{
+  background-color:#707070;
   width: 25rem;
   height: 15rem;
   border-radius: 2rem;
   margin-top: 2rem;
-}
-.video--color{
-  background-color:#707070;
+  margin-left:3.5rem;
 }
 
 
@@ -65,7 +64,6 @@ body{
     flex-direction: row;
   }
   .app-desc,.app-desc-font{
-    margin:0.2rem;
     text-align: left;
   }
   .dow{
@@ -73,17 +71,21 @@ body{
     flex-direction: column;
     width: auto;
   }
-  .app-desc-mod{
-    width: 80%;
-  }
   .col{
     /* border:2px red solid; */
     align-self: center;
     flex:1 0;
   }
-  .image{
-    margin:0 2rem;
+  .image,.video--color{
+    margin-left: 5rem;
   }
-
+}
+@media (min-width:1800px){
+  .app-desc{
+    margin-right: 11rem;
+  }
+  .video--color{
+    margin-left: 3.5rem;
+  }
 }
 
