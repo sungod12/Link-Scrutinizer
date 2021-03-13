@@ -42,7 +42,7 @@ const Page4 = () => {
             <p className="para">#besafewithus</p>
           </div>
 
-          <p className="title">meet our team</p>
+          <p className="title title--team">meet our team</p>
           <div className="member-container">
             <div className="member">
               <div className="circle">
@@ -50,13 +50,13 @@ const Page4 = () => {
               </div>
               <p className="name">Adarsh Pednekar</p>
               <div className="logos">
-                <a href="https://github.com/adarshped1525">
+                <a rel="noreferrer" href="https://github.com/adarshped1525">
                   <GitHubIcon className="logo" />
                 </a>
-                <a href="https://www.linkedin.com/in/adarsh-pednekar-11ba55183/">
+                <a rel="noreferrer" href="https://www.linkedin.com/in/adarsh-pednekar-11ba55183/">
                   <LinkedInIcon className="logo" />
                 </a>
-                <InstagramIcon className="logo" />
+               <a href="https://www.instagram.com/i_m_pednekar_/" rel="noreferrer"><InstagramIcon className="logo" /></a>
               </div>
             </div>
             <div className="member">
@@ -65,14 +65,14 @@ const Page4 = () => {
               </div>
               <p className="name">Sushant Pagam</p>
               <div className="logos">
-                <a href="https://github.com/SushantP199">
+                <a rel="noreferrer" href="https://github.com/SushantP199">
                   <GitHubIcon className="logo" />
                 </a>
-                <a href="https://www.linkedin.com/in/sushant-pagam/">
+                <a rel="noreferrer" href="https://www.linkedin.com/in/sushant-pagam/">
                   <LinkedInIcon  className="logo"/>
                 </a>
-                <a>
-                  <InstagramIcon className="logo" />
+                <a href="https://www.instagram.com/5ushant_p199/" rel="noreferrer">
+                  <InstagramIcon className="logo"/>
                 </a>
               </div>
             </div>
@@ -82,13 +82,13 @@ const Page4 = () => {
               </div>
               <p className="name">Suraj Prabhu</p>
               <div className="logos">
-                <a href="https://github.com/sungod12">
+                <a rel="noreferrer" href="https://github.com/sungod12">
                   <GitHubIcon className="logo" />
                 </a>
-                <a href="https://www.linkedin.com/in/suraj-prabhu-228475188/">
+                <a rel="noreferrer" href="https://www.linkedin.com/in/suraj-prabhu-228475188/">
                   <LinkedInIcon className="logo"/>
                 </a>
-                <a>
+                <a href="https://www.instagram.com/suraj_sprabhu/" rel="noreferrer">
                   <InstagramIcon className="logo" />
                 </a>
               </div>
@@ -96,10 +96,10 @@ const Page4 = () => {
           </div>
           <hr />
           <div className="bottom-container">
-            <p className="bottom-text bottom-text-1">
+            <a><p className="bottom-text bottom-text-1">
               teamlinkscrutinizer@gmail.com
-            </p>
-            <p className="bottom-text">privacy policy</p>
+            </p></a>
+            <a><p className="bottom-text">privacy policy</p></a>
             <p className="bottom-text">copyright {year} @ link scrutinizer </p>
           </div>
         </div>

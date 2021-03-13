@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+a:hover{
+    cursor: pointer;
+}
 .mem-logo{
     width: 97%;
     height: 92%;
@@ -10,7 +13,7 @@
 .title{
     text-align: center;
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 .para-container{
     font-family: 'Segoe UI Regular';
@@ -77,5 +80,8 @@
 @media (min-width:1200px){
     .bottom-text{
         font-size: 1rem;
+    }
+    .title--team{
+        margin-top: 8rem;
     }
 }

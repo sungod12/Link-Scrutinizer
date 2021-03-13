@@ -40,6 +40,7 @@ const Navbar = () => {
                   offset={-70}
                   duration={500}
                   className="nav__link"
+                  
                 >
                   Home
                 </Link>
@@ -50,7 +51,7 @@ const Navbar = () => {
                   to="apiguide"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={30}
                   duration={500}
                   className="nav__link"
                 >
@@ -63,7 +64,7 @@ const Navbar = () => {
                   to="downloads"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={1}
                   duration={500}
                   className="nav__link"
                 >

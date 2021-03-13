@@ -15,6 +15,7 @@
     "react-loader-spinner": "^4.0.0",
     "react-scripts": "4.0.2",
     "react-scroll": "^1.8.1",
+    "react-scrollup-lite": "^0.3.0",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

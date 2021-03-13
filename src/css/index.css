@@ -6,6 +6,13 @@ body {
   background: #181C2E;
   font-family: 'Segoe UI Semibold';
 }
+.scroller{
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+}
 .container{
   /* border:2px red solid; */
   width: 90%;
@@ -29,8 +36,8 @@ body {
 }
 .bottom{
   text-align: center;
-  margin-top: 15vh;
-  margin-bottom: 10vh;
+  margin-top: 10rem;
+  margin-bottom: 13rem;
 }
 input{
   background-color: rgba(255, 255, 255, 0.198);
@@ -135,6 +142,7 @@ header {
   margin: 0 ;
   padding: 0;
   list-style: none;
+  max-width: 95%;
 }
 .nav__item {
   margin-top: 1rem;
@@ -227,7 +235,7 @@ img{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: -1.5em;
+    margin-top: -60px;
     margin-left: -11rem;
   }
   .nav-toggle{
@@ -239,6 +247,7 @@ img{
   }
   img{
     width: 40%;
+    margin-left: 5px;
   }
   .main-title{
     margin-top: 2rem;
