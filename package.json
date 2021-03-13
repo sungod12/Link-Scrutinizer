@@ -1,6 +1,6 @@
 {
   "name": "link-scrutinizer",
-  "homepage": "https://sungod12.github.io/link-scrutinizer",
+  "homepage": "https://link-scrutinizer.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
