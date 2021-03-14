@@ -4,6 +4,9 @@
 body{
   color: white;
 }
+#downloads{
+  padding-bottom: 150px;
+}
 .hero__container1{
   /* border:5px orange solid; */
   display: flex;

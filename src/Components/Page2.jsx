@@ -38,17 +38,17 @@ const Page2 = () => {
               <p className="content-text" id="one">
                 https://linkscrutinizer.herokuapp.com/url
               </p>
-             <button className="copy-button" onClick={()=>copyElementText("one")}><img src={cplogo} className="copy-logo"/></button>
+              <button className="copy-button" onClick={()=>copyElementText("one")}><img src={cplogo} className="copy-logo"/></button>
             </div>
             <h3 className="col-heading">Request Header(Optional)</h3>
-            <div className="content content--padding">
+            <div className="content">
               <p className="content-text" id="two">
                 {_reqheader}
               </p>
-              <button className="copy-button" onClick={()=>copyElementText("two")}><img src={cplogo} className="copy-logo"/></button>
+              <button className="copy-button" onClick={()=>copyElementText("two")}><img src={cplogo}  className="copy-logo"/></button>
             </div>
             <h3 className="col-heading">Request Body</h3>
-            <div className="content content--padding-2">
+            <div className="content">
               <p className="content-text" id="three">
                {_reqbody}
               </p>

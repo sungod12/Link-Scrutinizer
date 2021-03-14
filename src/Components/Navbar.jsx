@@ -77,7 +77,7 @@ const Navbar = () => {
                   to="aboutus"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-160}
                   duration={500}
                   className="nav__link"
                 >

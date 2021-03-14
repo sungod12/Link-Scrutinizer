@@ -9,15 +9,16 @@
     margin: 0 auto;
 }
 .copy-button{
-    background-color: transparent;
-    outline: none;
-    border: none;
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 1rem;
+  margin-right:40px;
 }
 .copy-logo{
-    width:1rem;
-    height: 1rem;
-    align-self: center;
-    margin-right: 0.5rem;
+    margin: 0;
+    max-width: none;
+    width: auto;
 }
 .main-title--blue{
     font-size: 2rem;
@@ -87,9 +88,6 @@
         width: 40%;
         margin-right: 4rem;
     }
-    .copy-logo{
-        margin: 0;
-    }
     .api-text--title{
         /* border: 1px red solid; */
         text-align: left;
@@ -121,6 +119,9 @@
         /* border:2px red solid; */
         display: flex;
     }
+    .copy-button{
+        margin: 0;
+    }
 }
 @media (min-width:1200px){
     .hero__container{
@@ -130,9 +131,6 @@
     .description{
         width: auto;
     }
-    .content--2{
-        padding: 1.3rem;
-     }
 }
 @media (min-width:1800px){
     .hero__container{
