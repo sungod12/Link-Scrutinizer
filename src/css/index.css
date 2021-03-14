@@ -8,7 +8,7 @@ body {
 }
 .scroller{
   border-radius: 50%;
-  width: 3.5rem;
+  width: 3.0rem;
   height: 3rem;
   border: none;
   outline: none;
@@ -142,11 +142,11 @@ header {
   margin: 0 ;
   padding: 0;
   list-style: none;
-  max-width: 95%;
+  max-width: 1600px;
 }
 .nav__item {
-  margin-top: 1rem;
-  font-size: 0.8rem;
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
 }
 .nav__link {
   color: #fff;
@@ -247,7 +247,7 @@ img{
   }
   img{
     width: 40%;
-    margin-left: 5px;
+    margin-left: 20px;
   }
   .main-title{
     margin-top: 2rem;
@@ -260,6 +260,11 @@ img{
   }
   input{
     padding: 0.9rem;
+  }
+  .nav__item {
+    padding-top: 1.3rem;
+    align-self: center;
+    font-size: 0.8rem;
   }
 }
 @media (min-width:900px){
