@@ -21,7 +21,7 @@ const HomePage = () => {
         "Content-Type": "application/json",
       },
     };
-    let urlToUser = "https://linkscrutinizer.herokuapp.com/url";
+    let urlToUser = "https://linkscrutinizerapi.herokuapp.com/url";
     let response = await fetch(urlToUser, param);
     let res = await response.json();
     getStat(res.scrutiny["status"]);
