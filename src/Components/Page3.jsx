@@ -25,13 +25,6 @@ const Page3 = () => {
                 </p>
               </div>
               <div className="col animation">
-                {/* <iframe
-                  controls="0"
-                  src="https://www.youtube.com/embed/dSsKU1MRDco"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                /> */}
                 <img src={img1} alt="mobile-screen-1" className="image"/>
                 <img src={img2} alt="mobile-screen-2" className="image image--big"/>
               </div>

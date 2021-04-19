@@ -1,4 +1,3 @@
-import { Popover, Popper } from "@material-ui/core";
 import React from "react";
 import "../css/page2.css";
 import cplogo from "../images/copy.png";
