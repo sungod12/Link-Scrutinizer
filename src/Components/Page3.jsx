@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import "../css/slider.css";
 import img1 from "../images/mobile1.png";
 import img2 from "../images/mobile2.png";
+import video from "../images/chrome extension.mp4";
 
 const Page3 = () => {
   
@@ -51,7 +52,8 @@ const Page3 = () => {
                   </p>
                 </div>
                 <div className="col">
-                  <div className="video--color"></div>
+                  {/* <div className="video--color"></div> */}
+                  <video className="video--color" controls src={video}/>
                 </div>
               </div>
               <div className="dow">
