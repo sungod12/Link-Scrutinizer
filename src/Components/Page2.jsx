@@ -11,7 +11,7 @@ const Page2 = () => {
     var elem = document.createElement("textarea");
     document.body.appendChild(elem);
     elem.value = text;
-    console.log(text);
+    // console.log(text);
     elem.select();
     document.execCommand("copy");
     alert("Copied to clipboard");
@@ -35,7 +35,7 @@ const Page2 = () => {
             <h3 className="col-heading">Request URL</h3>
             <div className="content">
               <p className="content-text" id="one">
-                https://linkscrutinizer.herokuapp.com/url
+                https://linkscrutinizerapi.herokuapp.com/url
               </p>
               <button className="copy-button" onClick={()=>copyElementText("one")}><img src={cplogo} className="copy-logo"/></button>
             </div>
