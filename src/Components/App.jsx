@@ -5,7 +5,7 @@ import Page2 from "./Page2";
 import Page3 from "./Page3";
 import Page4 from "./Page4";
 import "../css/index.css";
-import ScrollUp from 'react-scrollup-lite';
+import ScrollUp from "react-scrollup-lite";
 import { ArrowUpward } from "@material-ui/icons";
 
 const App = () => {
@@ -26,16 +26,18 @@ const App = () => {
       </div>
       <div>
         <ScrollUp
-                startPosition={0}
-                showAtPosition={25}
-                position='right'
-                className='scroll-up'
-                style={{
-                    right: '20px',
-                }}
-            >
-                <button className="scroller"><ArrowUpward/></button>
-          </ScrollUp>
+          startPosition={0}
+          showAtPosition={25}
+          position="right"
+          className="scroll-up"
+          style={{
+            right: "20px",
+          }}
+        >
+          <button className="scroller">
+            <ArrowUpward />
+          </button>
+        </ScrollUp>
       </div>
     </>
   );
