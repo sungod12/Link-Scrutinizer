@@ -101,11 +101,11 @@ body {
     width: 6rem;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1600px) and (max-width: 1920px) {
   html {
-    font-size: 30px;
+    font-size: 25px;
   }
   .animation {
-    padding-left: 22rem;
+    padding-left: 25rem;
   }
 }
