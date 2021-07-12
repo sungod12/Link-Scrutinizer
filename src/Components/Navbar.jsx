@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "../css/index.css";
-import logo from "../images/website_logo.png";
+import logo from "../assets/website_logo.png";
 
 const Navbar = () => {
   const scrollToTop = () => {
@@ -18,14 +18,14 @@ const Navbar = () => {
   return (
     <>
       <header>
-          <button
-            className="nav-toggle"
-            onFocus={opennav}
-            aria-label="open navigation"
-          >
-            <span className="hamburger"></span>
-          </button>
-          <div className="container row">
+        <button
+          className="nav-toggle"
+          onFocus={opennav}
+          aria-label="open navigation"
+        >
+          <span className="hamburger"></span>
+        </button>
+        <div className="container row">
           <a className="logo" href="#">
             <img src={logo} className="hero__img" alt="link scrutinizer logo" />
           </a>
@@ -40,7 +40,6 @@ const Navbar = () => {
                   offset={-70}
                   duration={500}
                   className="nav__link"
-                  
                 >
                   Home
                 </Link>
@@ -85,8 +84,8 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            </nav>
-            </div>
+          </nav>
+        </div>
       </header>
     </>
   );

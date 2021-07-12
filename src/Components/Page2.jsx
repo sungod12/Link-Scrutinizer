@@ -1,11 +1,12 @@
 import React from "react";
 import "../css/page2.css";
-import cplogo from "../images/copy.png";
+import cplogo from "../assets/copy.png";
 
 const Page2 = () => {
-  var _reqheader='{"Content-Type":"application/json"}';
-  var _reqbody='{"url":"www.google.com"}';
-  var _response='{"isBenign": true, "scrutiny":{"autonomousSystem": "AS15169 GOOGLE", "host": "www.google.com", "status": "URL is Safe you are good to go with !"}}';
+  var _reqheader = '{"Content-Type":"application/json"}';
+  var _reqbody = '{"url":"www.google.com"}';
+  var _response =
+    '{"isBenign": true, "scrutiny":{"autonomousSystem": "AS15169 GOOGLE", "host": "www.google.com", "status": "URL is Safe you are good to go with !"}}';
   function copyElementText(id) {
     var text = document.getElementById(id).innerHTML;
     var elem = document.createElement("textarea");
@@ -29,45 +30,60 @@ const Page2 = () => {
           </p>
           <p className="api-text--title">Direction to consume API :</p>
           <div className="container-col">
-          <div className="hero__container ">
-            <h3 className="api-text--white">How to call API ?</h3>
-            <div className="column">
-            <h3 className="col-heading">Request URL</h3>
-            <div className="content">
-              <p className="content-text" id="one">
-                https://linkscrutinizerapi.herokuapp.com/url
+            <div className="hero__container ">
+              <h3 className="api-text--white">How to call API ?</h3>
+              <div className="column">
+                <h3 className="col-heading">Request URL</h3>
+                <div className="content">
+                  <p className="content-text" id="one">
+                    https://linkscrutinizerapi.herokuapp.com/url
+                  </p>
+                  <button
+                    className="copy-button"
+                    onClick={() => copyElementText("one")}
+                  >
+                    <img src={cplogo} className="copy-logo" />
+                  </button>
+                </div>
+                <h3 className="col-heading">Request Header(Optional)</h3>
+                <div className="content">
+                  <p className="content-text" id="two">
+                    {_reqheader}
+                  </p>
+                  <button
+                    className="copy-button"
+                    onClick={() => copyElementText("two")}
+                  >
+                    <img src={cplogo} className="copy-logo" />
+                  </button>
+                </div>
+                <h3 className="col-heading">Request Body</h3>
+                <div className="content">
+                  <p className="content-text" id="three">
+                    {_reqbody}
+                  </p>
+                  <button
+                    className="copy-button"
+                    onClick={() => copyElementText("three")}
+                  >
+                    <img src={cplogo} className="copy-logo" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            {/* second-content */}
+            <div className="hero__container">
+              <h3 className="api-text--white api-text--margin">
+                API response:
+              </h3>
+              <p className="content--response">
+                The API will provide you formatted json object as shown in right
+                box that you can parse and apply to your application.
               </p>
-              <button className="copy-button" onClick={()=>copyElementText("one")}><img src={cplogo} className="copy-logo"/></button>
+              <div className="content content--2">
+                <p className="content-text">{_response}</p>
+              </div>
             </div>
-            <h3 className="col-heading">Request Header(Optional)</h3>
-            <div className="content">
-              <p className="content-text" id="two">
-                {_reqheader}
-              </p>
-              <button className="copy-button" onClick={()=>copyElementText("two")}><img src={cplogo}  className="copy-logo"/></button>
-            </div>
-            <h3 className="col-heading">Request Body</h3>
-            <div className="content">
-              <p className="content-text" id="three">
-               {_reqbody}
-              </p>
-              <button className="copy-button" onClick={()=>copyElementText("three")}><img src={cplogo} className="copy-logo"/></button>
-            </div>
-            </div>
-          </div>
-          {/* second-content */}
-          <div className="hero__container">
-          <h3 className="api-text--white api-text--margin">API response:</h3>
-            <p className="content--response">
-              The API will provide you formatted json object as shown in right
-              box that you can parse and apply to your application.
-            </p>
-            <div className="content content--2">
-              <p className="content-text">
-                {_response}
-              </p>
-            </div>
-          </div>
           </div>
         </div>
       </section>

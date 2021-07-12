@@ -3,54 +3,54 @@
 }
 body {
   margin: 0;
-  background: #181C2E;
-  font-family: 'Segoe UI Semibold';
+  background: #181c2e;
+  font-family: "Segoe UI Semibold";
 }
-.scroller{
+.scroller {
   border-radius: 50%;
-  width: 3.0rem;
+  width: 3rem;
   height: 3rem;
   border: none;
   outline: none;
 }
-.container{
+.container {
   /* border:2px red solid; */
   width: 90%;
-  max-width: 100rem; 
+  max-width: 100rem;
   min-width: 27.875rem;
-  margin:0 auto;
+  margin: 0 auto;
 }
-.main-title{
-  color:white;
+.main-title {
+  color: white;
   /* border: 1px yellow solid; */
   font-size: 1.5rem;
   padding: 1.95rem 0;
   margin: 0 auto;
   text-align: center;
 }
-.hero_container{
+.hero_container {
   /* border: 1px yellow solid; */
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
-.bottom{
+.bottom {
   text-align: center;
   margin: 100px 0 200px;
 }
-input{
+input {
   background-color: rgba(255, 255, 255, 0.198);
   border-radius: 2rem;
   outline: none;
   border: none;
-  padding:1rem;
+  padding: 1rem;
   width: 80%;
   max-width: 24rem;
   font-size: 0.62rem;
   color: white;
 }
 
-.search{
+.search {
   border-radius: 50%;
   width: 2.3rem;
   height: 2.3rem;
@@ -62,7 +62,7 @@ input{
   align-self: center;
 }
 
-button:hover{
+button:hover {
   opacity: 0.7;
   cursor: pointer;
 }
@@ -138,7 +138,7 @@ header {
   position: relative;
 }
 .nav__list {
-  margin: 0 ;
+  margin: 0;
   padding: 0;
   list-style: none;
   max-width: 1600px;
@@ -163,9 +163,10 @@ header {
 .nav__link:focus {
   opacity: 0.5;
 }
-img{
+img {
   width: 50%;
   max-width: 100%;
+  image-rendering: crisp-edges;
 }
 .logo {
   height: 30px;
@@ -181,55 +182,54 @@ img{
   /* Microsoft Edge */
   color: #fff;
 }
-.result{
-  line-height: 1.5rem; 
+.result {
+  line-height: 1.5rem;
   text-align: center;
   font-size: 1.3rem;
-  font-family: 'Segoe UI Semibold';
+  font-family: "Segoe UI Semibold";
 }
-.result--safe{
-  color:#1AE227;
+.result--safe {
+  color: #1ae227;
 }
-.result--unsafe{
-  color:red;
+.result--unsafe {
+  color: red;
 }
-.result-container{
+.result-container {
   /* border: 2px red solid; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 3em;
 }
-#circleicon{
-  margin:0;
-  padding:0;
+#circleicon {
+  margin: 0;
+  padding: 0;
   width: 1.5rem;
   height: 4.2rem;
-  align-self:flex-start;
+  align-self: flex-start;
 }
-.circleicon--green{
-  color:#1AE227;
+.circleicon--green {
+  color: #1ae227;
 }
-.circleicon--red{
-  color:red;
+.circleicon--red {
+  color: red;
 }
 
-@media (min-width:600px)
-{
-  html{
+@media (min-width: 600px) {
+  html {
     font-size: 25px;
   }
-  .row{
+  .row {
     /* border: 4px orange solid; */
     display: flex;
     align-items: center;
     width: 95%;
   }
-  .nav{
-    visibility:visible;
+  .nav {
+    visibility: visible;
     position: relative;
   }
-  .nav__list{
+  .nav__list {
     /* border: 4px yellow solid; */
     display: flex;
     align-items: flex-start;
@@ -237,27 +237,27 @@ img{
     margin-top: -60px;
     margin-left: -11rem;
   }
-  .nav-toggle{
+  .nav-toggle {
     width: 0;
     height: 0;
   }
-  .hero__img{
-   margin-right:20rem;
+  .hero__img {
+    margin-right: 20rem;
   }
-  img{
+  img {
     max-width: 40%;
     margin-left: 20px;
   }
-  .main-title{
+  .main-title {
     margin-top: 2rem;
   }
-  .search{
+  .search {
     width: 2rem;
     height: 2rem;
     align-self: center;
     margin-left: -10%;
   }
-  input{
+  input {
     padding: 0.9rem;
   }
   .nav__item {
@@ -266,16 +266,16 @@ img{
     font-size: 0.8rem;
   }
 }
-@media (min-width:900px){
-  .nav__list{
+@media (min-width: 900px) {
+  .nav__list {
     margin-left: 0.15rem;
   }
-  .search{
+  .search {
     margin-left: -5%;
   }
 }
-@media (min-width:1800px){
-  html{
+@media (min-width: 1800px) {
+  html {
     font-size: 30px;
   }
 }

@@ -1,48 +1,54 @@
 * {
   box-sizing: border-box;
 }
-body{
+body {
   color: white;
 }
-#downloads{
+#downloads {
   padding-bottom: 150px;
 }
-.hero__container1{
+.hero__container1 {
   /* border:5px orange solid; */
   display: flex;
   flex-direction: column;
-  align-items:center;
-  margin:0 auto;
+  align-items: center;
+  margin: 0 auto;
 }
-.app-desc{
+.app-desc {
   /* border: 1px yellow solid; */
   font-size: 1.3rem;
   text-align: center;
-  font-family: 'Segoe UI Semibold';
+  font-family: "Segoe UI Semibold";
 }
-.app-desc-font{
-  font-family: 'Segoe UI Regular';
+.app-desc-font {
+  font-family: "Segoe UI Regular";
   margin-top: 0.8rem;
 }
-.download{
+.download {
   /* border: 10px yellow solid; */
   padding: 0.7rem 1.5rem;
   border-radius: 1rem;
   margin-top: 1rem;
 }
-.image{
+.image {
   width: 8.75rem;
-  margin:0 2rem;
+  margin: 0 2rem;
+  image-rendering: crisp-edges;
 }
-.image--big{
-  width: 9.375em;;
+.image--big {
+  width: 9.375em;
+  image-rendering: crisp-edges;
 }
-.animation{
+.animation {
   animation-name: floatingMob;
 }
-@keyframes floatingMob { 
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+@keyframes floatingMob {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 .animation img {
   animation: floatingMob 1s;
@@ -50,49 +56,56 @@ body{
   animation-iteration-count: infinite;
 }
 
-.dow{
+.dow {
   /* border: 10px yellow solid; */
   width: 45%;
   margin: 0 auto;
 }
-.video--color{
-  background-color:#707070;
+.video--color {
+  background-color: #707070;
   width: 25rem;
   height: 15rem;
   border-radius: 2rem;
   margin-top: 2rem;
 }
 
-
-@media (min-width:900px){
-  .hero__container1{
+@media (min-width: 900px) {
+  .hero__container1 {
     flex-direction: row;
   }
-  .app-desc,.app-desc-font{
+  .app-desc,
+  .app-desc-font {
     text-align: left;
-    width: auto; 
+    width: auto;
   }
-  .dow{
+  .dow {
     /* border: 2px yellow solid; */
     flex-direction: column;
     width: auto;
   }
-  .col{
+  .col {
     /* border:2px red solid; */
-    flex:1 0;
+    flex: 1 0;
   }
-  .animation{
-    padding-left: 16rem;
+  .animation {
+    padding-left: 12rem;
   }
-  .video--color{
+  .video--color {
     margin-left: 4rem;
   }
-  .image{
+  .image {
     width: 5rem;
-    margin-right:5px;
+    margin-right: 5px;
   }
-  .image--big{
+  .image--big {
     width: 6rem;
   }
 }
-
+@media (min-width: 1920px) {
+  html {
+    font-size: 30px;
+  }
+  .animation {
+    padding-left: 22rem;
+  }
+}
