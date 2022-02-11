@@ -4,8 +4,6 @@ As the name suggests,this website created in final year of my engineering helps 
 
 ##### Note: Harmful hear refers to the websites which are created for phishing or any such malicious purpose.
 
-# Demo -
-
 # Application Flow -
 
 - User enters the url in the box.
@@ -19,4 +17,3 @@ As the name suggests,this website created in final year of my engineering helps 
 
 # Learnings
 - Responsive Layout using FlexBox.
-- 
